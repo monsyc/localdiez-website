@@ -1,0 +1,2697 @@
+#logoicono{
+	text-align: center;
+	width: 100%;
+	padding-bottom: 10px;
+}
+
+@media screen and (min-width: 1000px) {
+#navbar2 {
+	display: none;
+}
+
+#carrousel2 {
+	display: none;
+}
+
+#container2 {
+	width: 970px;
+	margin:auto;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#RowLogo {
+	float: left;
+	position: relative;
+	width: 20%;
+}
+
+#NavIdiomas {
+	float: left;
+	position: relative;
+	width: 80%;
+}
+
+/*navbar*/
+
+a:hover {
+	text-decoration: none;
+	color: #29AEC0;
+}
+
+nav {
+	text-align: right;
+	
+}
+
+nav ul {
+	padding: 0;  
+	list-style: none;
+	display: inline-table;
+	z-index:200;
+}
+
+nav ul li:hover > ul {
+	display: block;
+
+}
+nav ul li {
+	float: left;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	color:#595959;
+
+}
+nav ul li a {
+	display: block; 
+	padding: 8px 30px;
+	color: #595959; 
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	background: #F4F4F4;
+	text-decoration: none;
+}	
+
+nav ul ul {
+	display: none;
+	background: #F7F7F7; 
+	padding: 0;
+	position: absolute;
+	
+}
+
+nav ul ul li {
+	float: none; 
+	text-align: left;
+	width: 180px;
+}
+	
+nav ul ul li a {
+	padding: 8px 30px;
+	color: #595959;
+}	
+
+nav ul ul li a:hover {
+	background: #e2e2e1;
+}
+
+/*END NAVBAR*/
+
+#idiomas {
+	text-align: right;
+	padding: 15px 30px 0 0;
+}
+
+.idioms {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+	color:#595959;
+	text-decoration: none;
+}
+
+/*CARROUSEL*/
+
+
+
+#carrousel {
+	float: left;
+	position: relative;
+	padding-top: 20px;
+	width: 100%;
+}
+
+.linea {
+	margin-top: 30px;
+}
+
+#frase {
+	position: relative;
+	float: left;
+	width: 100%;
+
+}
+
+#frase2 {
+	display: block;
+    margin-left: auto;
+    padding: 20px 0;
+    margin-right: auto; 
+}
+
+#Rwork {
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+#PR {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	color:#595959;
+}
+
+
+#proyectosimages {
+	position: relative;
+	float: left;
+	width: 100%;
+	padding-bottom: 40px;
+}
+
+.imagesp {
+	position: relative;
+	float: left;
+	width: 25%;
+}
+
+.imagesp1 {
+	padding: 0 1px 0 1.5px;
+}
+
+.imagesp2 {
+	padding: 0 1px 0 1.5px;
+}
+
+.imagesp3 {
+	padding-right: 2px;
+}
+
+.imagesp4 {
+	padding-left: 2px;
+}
+
+#linea2 {
+	margin-top: 0;
+	margin-bottom: 40px;
+}
+
+#DR {
+	position: relative;
+	float: left;
+	width: 100%;
+
+}
+
+#SM {
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+#leyenda{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color:#595959;
+}
+
+#monica {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	color:#595959;
+}
+
+ul {
+	padding: 0;
+	text-align: center;
+}
+
+li {
+	display: inline;
+}
+
+.icon {
+	padding: 5px 10px 50px;
+}
+
+}
+
+@media screen and (min-width: 800px) and (max-width: 999px) {
+
+#carrousel2 {
+	display: none;
+}
+
+#navbar2 {
+	display: none;
+}
+
+#container2 {
+	width: 100%;
+	margin:auto;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+#RowLogo {
+	float: left;
+	position: relative;
+	width: 20%;
+}
+
+#NavIdiomas {
+	float: left;
+	position: relative;
+	width: 80%;
+}
+
+/*navbar*/
+
+a:hover {
+	text-decoration: none;
+	color: #29AEC0;
+}
+
+nav {
+	text-align: right;
+	
+}
+
+nav ul {
+	padding: 0;  
+	list-style: none;
+	display: inline-table;
+	z-index:200;
+}
+
+nav ul li:hover > ul {
+	display: block;
+
+}
+nav ul li {
+	float: left;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	color:#595959;
+
+}
+nav ul li a {
+	display: block; 
+	padding: 8px 15px;
+	color: #595959; 
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	background: #F4F4F4;
+	text-decoration: none;
+}	
+
+nav ul ul {
+	display: none;
+	background: #F7F7F7; 
+	padding: 0;
+	position: absolute;
+	
+}
+
+nav ul ul li {
+	float: none; 
+	text-align: left;
+	width: 180px;
+}
+	
+nav ul ul li a {
+	padding: 8px 30px;
+	color: #595959;
+}	
+
+nav ul ul li a:hover {
+	background: #e2e2e1;
+}
+
+/*END NAVBAR*/
+
+#idiomas {
+	text-align: right;
+	padding: 15px 15px 0 0;
+}
+
+.idioms {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+	color:#595959;
+	text-decoration: none;
+}
+
+/*CARROUSEL*/
+
+
+
+#carrousel {
+	float: left;
+	position: relative;
+	padding-top: 20px;
+	width: 100%;
+}
+
+.linea {
+	margin-top: 30px;
+}
+
+#frase {
+	position: relative;
+	float: left;
+	width: 100%;
+
+}
+
+#frase2 {
+	display: block;
+    margin-left: auto;
+    padding: 20px 0;
+    margin-right: auto; 
+}
+
+#Rwork {
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+#PR {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	color:#595959;
+}
+
+
+#proyectosimages {
+	position: relative;
+	float: left;
+	width: 100%;
+	padding-bottom: 40px;
+}
+
+.imagesp {
+	position: relative;
+	float: left;
+	width: 25%;
+}
+
+.imagesp1 {
+	padding: 0 1px 0 1.5px;
+}
+
+.imagesp2 {
+	padding: 0 1px 0 1.5px;
+}
+
+.imagesp3 {
+	padding-right: 2px;
+}
+
+.imagesp4 {
+	padding-left: 2px;
+}
+
+#linea2 {
+	margin-top: 0;
+	margin-bottom: 40px;
+}
+
+#DR {
+	position: relative;
+	float: left;
+	width: 100%;
+
+}
+
+#SM {
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+#leyenda{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color:#595959;
+}
+
+#monica {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	color:#595959;
+}
+
+ul {
+	padding: 0;
+	text-align: center;
+}
+
+li {
+	display: inline;
+}
+
+.icon {
+	padding: 5px 10px 50px;
+}
+
+}
+@media screen and (min-width: 650px) and (max-width: 799px) {
+
+#carrousel2 {
+	display: none;
+}
+
+#navbar2 {
+	display: none;
+}
+
+#container2 {
+	width: 100%;
+	margin:auto;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+#RowLogo {
+	float: left;
+	position: relative;
+	width: 20%;
+}
+
+#NavIdiomas {
+	float: left;
+	position: relative;
+	width: 80%;
+}
+
+/*navbar*/
+
+a:hover {
+	text-decoration: none;
+	color: #29AEC0;
+}
+
+nav {
+	text-align: right;
+	
+}
+
+nav ul {
+	padding: 0;  
+	list-style: none;
+	display: inline-table;
+	z-index:200;
+}
+
+nav ul li:hover > ul {
+	display: block;
+
+}
+nav ul li {
+	float: left;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	color:#595959;
+
+}
+nav ul li a {
+	display: block; 
+	padding: 8px 12px;
+	color: #595959; 
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	background: #F4F4F4;
+	text-decoration: none;
+}	
+
+nav ul ul {
+	display: none;
+	background: #F7F7F7; 
+	padding: 0;
+	position: absolute;
+	
+}
+
+nav ul ul li {
+	float: none; 
+	text-align: left;
+	width: 180px;
+}
+	
+nav ul ul li a {
+	padding: 8px 30px;
+	color: #595959;
+}	
+
+nav ul ul li a:hover {
+	background: #e2e2e1;
+}
+
+/*END NAVBAR*/
+
+#idiomas {
+	text-align: right;
+	padding: 15px 12px 0 0;
+}
+
+.idioms {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+	color:#595959;
+	text-decoration: none;
+}
+
+/*CARROUSEL*/
+
+
+
+#carrousel {
+	float: left;
+	position: relative;
+	padding-top: 20px;
+	width: 100%;
+}
+
+.linea {
+	margin-top: 30px;
+}
+
+#frase {
+	position: relative;
+	float: left;
+	width: 100%;
+
+}
+
+#frase2 {
+	display: block;
+    margin-left: auto;
+    padding: 20px 0;
+    margin-right: auto; 
+    width: 60%;
+}
+
+#Rwork {
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+#PR {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	color:#595959;
+}
+
+
+#proyectosimages {
+	position: relative;
+	float: left;
+	width: 100%;
+	padding-bottom: 40px;
+}
+
+.imagesp {
+	position: relative;
+	float: left;
+	width: 50%;
+}
+
+.imagesp1{
+	padding-left: 2px;
+	padding-bottom: 4px;
+}
+
+.imagesp2 {
+	padding-right: 2px;
+}
+
+.imagesp3 {
+	padding-right: 2px;
+	padding-bottom: 4px;
+}
+
+.imagesp4 {
+	padding-left: 2px;
+}
+
+#linea2 {
+	margin-top: 0;
+	margin-bottom: 40px;
+}
+
+#DR {
+	position: relative;
+	float: left;
+	width: 100%;
+
+}
+
+#SM {
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+#leyenda{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color:#595959;
+}
+
+#monica {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	color:#595959;
+}
+
+ul {
+	padding: 0;
+	text-align: center;
+}
+
+li {
+	display: inline;
+}
+
+.icon {
+	padding: 5px 10px 50px;
+}
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 649px) {
+
+#carrousel2 {
+	display: none;
+}
+
+#container2 {
+	width: 100%;
+	margin:auto;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+#RowLogo {
+	float: left;
+	position: relative;
+	width: 20%;
+}
+
+#NavIdiomas {
+	float: left;
+	position: relative;
+	width: 80%;
+}
+
+/*navbar*/
+
+#navbar {
+	display:none;
+}
+
+#navbar2 {
+	float: left;
+	position: relative;
+	width: 100%;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #29AEC0;
+}
+
+
+
+/*END NAVBAR*/
+
+#idiomas {
+	text-align: right;
+	padding: 15px 12px 0 0;
+
+}
+
+.idioms {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+	color:#595959;
+	text-decoration: none;
+}
+
+/*CARROUSEL*/
+
+
+
+#carrousel {
+	float: left;
+	position: relative;
+	padding-top: 20px;
+	width: 100%;
+}
+
+.linea {
+	margin-top: 30px;
+}
+
+#frase {
+	position: relative;
+	float: left;
+	width: 100%;
+
+}
+
+#frase2 {
+	display: block;
+    margin-left: auto;
+    padding: 20px 0;
+    margin-right: auto; 
+    width: 60%;
+}
+
+#Rwork {
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+#PR {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	color:#595959;
+}
+
+
+#proyectosimages {
+	position: relative;
+	float: left;
+	width: 100%;
+	padding-bottom: 40px;
+}
+
+.imagesp {
+	position: relative;
+	float: left;
+	width: 50%;
+}
+
+.imagesp1{
+	padding-left: 2px;
+	padding-bottom: 4px;
+}
+
+.imagesp2 {
+	padding-right: 2px;
+}
+
+.imagesp3 {
+	padding-right: 2px;
+	padding-bottom: 4px;
+}
+
+.imagesp4 {
+	padding-left: 2px;
+}
+
+#linea2 {
+	margin-top: 0;
+	margin-bottom: 40px;
+}
+
+#DR {
+	position: relative;
+	float: left;
+	width: 100%;
+
+}
+
+#SM {
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+#leyenda{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color:#595959;
+}
+
+#monica {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	color:#595959;
+}
+
+ul {
+	padding: 0;
+	text-align: center;
+}
+
+li {
+	display: inline;
+}
+
+.icon {
+	padding: 5px 10px 50px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.dark_blue {
+  background-color: #F2F2F2;
+  color: #efefef;
+  padding-bottom: 250%;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  z-index: 200;
+}
+
+
+
+#box {
+  text-align: right;
+  padding-top: 0;
+}
+
+
+nav {
+  text-align: left;
+  width: 100%;
+  text-align: center;
+   z-index:200;
+
+}
+
+ 
+
+nav ul {
+  padding: 0;  
+  padding-bottom: 0;
+  list-style: none;
+  
+  z-index:200;
+  margin: 0;
+}
+
+nav ul li:hover > ul {
+ background: white; 
+
+}
+nav ul li {
+  
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #595959;
+  
+
+}
+nav ul li a {
+   
+  padding: 12.5px 12px;
+  color: #595959;
+  text-decoration: none;
+  display:block;
+  border-bottom: thin solid #C9C9C9;
+}
+
+nav ul li a:hover {
+  background: #29AEC0;
+  color: white;
+}  
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 479px) {
+
+#container2 {
+	width: 100%;
+	margin:auto;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+#RowLogo {
+	float: left;
+	position: relative;
+	width: 20%;
+}
+
+#NavIdiomas {
+	float: left;
+	position: relative;
+	width: 80%;
+}
+
+#logo {
+	width: 90%;
+}
+/*navbar*/
+
+#navbar {
+	display:none;
+}
+
+#navbar2 {
+	float: left;
+	position: relative;
+	width: 100%;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #29AEC0;
+}
+
+
+
+/*END NAVBAR*/
+
+#idiomas {
+	text-align: right;
+	padding: 15px 12px 0 0;
+
+}
+
+.idioms {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+	color:#595959;
+	text-decoration: none;
+}
+
+/*CARROUSEL*/
+
+
+
+#carrousel {
+	float: left;
+	position: relative;
+	padding-top: 20px;
+	width: 100%;
+	display: none;
+}
+
+#carrousel2 {
+	float: left;
+	position: relative;
+	padding-top: 20px;
+	width: 100%;
+	
+	}
+
+
+.linea {
+	margin-top: 30px;
+}
+
+#frase {
+	position: relative;
+	float: left;
+	width: 100%;
+
+}
+
+#frase2 {
+	display: block;
+    margin-left: auto;
+    padding: 20px 0;
+    margin-right: auto; 
+    width: 60%;
+}
+
+#Rwork {
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+#PR {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	color:#595959;
+}
+
+
+#proyectosimages {
+	position: relative;
+	float: left;
+	width: 100%;
+	padding-bottom: 40px;
+}
+
+.imagesp {
+	position: relative;
+	float: left;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: %;
+}
+
+.imagesp1{
+	padding-bottom: 10px;
+}
+
+.imagesp2 {
+	padding-bottom: 10px;
+}
+
+.imagesp3 {
+	padding-bottom: 10px;
+}
+
+.imagesp4 {
+	padding-bottom: 10px;
+}
+
+#linea2 {
+	margin-top: 0;
+	margin-bottom: 40px;
+}
+
+#DR {
+	position: relative;
+	float: left;
+	width: 100%;
+
+}
+
+#SM {
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+#leyenda{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color:#595959;
+}
+
+#monica {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	color:#595959;
+}
+
+ul {
+	padding: 0;
+	text-align: center;
+}
+
+li {
+	display: inline;
+}
+
+.icon {
+	padding: 5px 10px 50px;
+	cursor: pointer;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.dark_blue {
+  background-color: #F2F2F2;
+  color: #efefef;
+  padding-bottom: 250%;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  z-index: 200;
+}
+
+#box {
+  text-align: right;
+}
+
+
+nav {
+  text-align: left;
+  width: 100%;
+  text-align: center;
+   z-index:200;
+
+}
+
+ 
+
+nav ul {
+  padding: 0;  
+  padding-bottom: 0;
+  list-style: none;
+  
+  z-index:200;
+  margin: 0;
+}
+
+nav ul li:hover > ul {
+ background: white; 
+
+}
+nav ul li {
+  
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #595959;
+  
+
+}
+nav ul li a {
+   
+  padding: 12.5px 12px;
+  color: #595959;
+  text-decoration: none;
+  display:block;
+  border-bottom: thin solid #C9C9C9;
+}
+
+nav ul li a:hover {
+  background: #29AEC0;
+  color: white;
+  text-decoration: none;
+} 
+}
+
+/*START QUIENES SOMOS?*/
+
+#quienessomos {
+	float: left;
+	position: relative;
+	width: 100%;
+	padding-top: 20px;
+}
+
+.wwa {
+	font-family: 'Roboto', sans-serif;
+  	font-weight: 700;
+  	font-size: 22px;
+  	color: #595959;
+  	padding-bottom: 15px;
+}
+
+.par {
+	font-family: 'Roboto', sans-serif;
+  	font-weight: 400;
+  	font-size: 12px;
+  	color: #595959;
+  	padding-bottom: 15px;
+}
+.par3 {
+	font-family: 'Roboto', sans-serif;
+  	font-weight: 400;
+  	font-size: 12px;
+  	color: #595959;
+  	padding:0 0 5px 10px;
+}
+
+#premios{
+	float: left;
+	position: relative;
+	width: 100%;
+}
+
+.par2 {
+	font-family: 'Roboto', sans-serif;
+  	font-weight: 400;
+  	font-size: 12px;
+  	color: #595959;
+  	padding-left: 10px;
+}
+
+#premiosul {
+	text-align: left;
+}
+
+/*END QUIENES SOMOS?*/
+
+/*START CONTACTANOS*/
+
+@media screen and (min-width: 962px)  {
+
+#content {
+	
+	float: left;
+	position: relative;
+	width: 100%;
+}
+
+#ContactForm {
+	width: 40%;
+	margin: auto;
+	float: left;
+	position: relative;
+	padding-left: 2%;
+	padding-bottom: 35px;
+}
+
+#ContactInfo{
+
+	width: 60%;
+	margin: auto;
+	float: left;
+	position: relative;
+	padding-left: 20%;
+	text-align: right;
+	vertical-align: bottom;
+	padding-top: 29px;
+
+}
+
+.inf {
+	float: left;
+	position: relative;
+	padding-top: 10px;
+}
+
+.inf2 {
+	float: left;
+	position: relative;
+	padding-top: 30px;
+}
+
+#infoContact {
+	width: 100%;
+	float: left;
+	position: relative;
+text-align: right;
+}
+
+#iconolocal10 {
+	vertical-align: bottom;
+	padding-top: 50px;
+
+
+}
+
+.contactText {
+	margin: 4px 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: #595959;
+	text-align: left;
+
+}
+
+.contactText1 {
+	margin: 4px 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: #595959;
+	text-align: left;
+	padding-top: 10px;
+
+}
+
+.contactText2 {
+	margin: 4px 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: #595959;
+	text-align: left;
+	padding-bottom: 10px;
+
+}
+.titleText {
+	margin: 4px;
+	height: 200px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+	color: #595959;
+	border-right: medium solid #30ADBF;
+	padding-right: 30px;
+	padding-top: 10px;
+
+}
+input, textarea {
+    padding: 9px;
+    border: solid 1px #E5E5E5;
+    outline: 0;
+    font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 12px;
+    width: 350px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    }
+   
+textarea {
+    width: 350px;
+    max-width: 400px;
+    height: 150px;
+    line-height: 150%;
+    }
+   
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+    border-color: #547981;
+    }
+   
+.form label {
+    margin-left: 10px;
+    color: #547981;
+    }
+   
+form#payment button {
+	background: #14ADC2;
+	border: none;
+	border-radius: 2px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight:700;
+	font-size:14px;
+	height:40px;
+	margin: auto;
+	padding: 7px 25px;
+}
+
+form#payment button:hover {
+	background: #127C84;
+	cursor: pointer;
+}
+
+input#fname{
+	background-image:url(images/persona-01.png);
+	background-repeat:no-repeat;
+	background-position:6px;
+	border:1px solid #DADADA;
+	margin-top:12px;
+	padding-left:35px;
+	width:347px;
+	height:40px;
+}
+
+input#email{
+	background-image:url(images/emailicon-01.png);
+	background-repeat:no-repeat;
+	background-position:6px;
+	border:1px solid #DADADA;
+	margin-top:12px;
+	padding-left:35px;
+	width:347px;
+	height:40px;
+}
+
+input#phone{
+	background-image:url(images/telefono-01.png);
+	background-repeat:no-repeat;
+	background-position:6px;
+	border:1px solid #DADADA;
+	margin-top:12px;
+	padding-left:35px;
+	width:347px;
+	height:40px;
+}
+
+.tituloContact {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 22px;
+
+}
+
+#titles {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 13px;
+	
+}
+
+}
+/*END CONTACTANOS*/
+
+@media screen and (min-width: 813px) and (max-width: 961px) {
+
+	#content {
+	
+	float: left;
+	position: relative;
+	width: 100%;
+}
+
+#ContactForm {
+	width: 45%;
+	margin: auto;
+	float: left;
+	position: relative;
+		padding-bottom: 35px;
+}
+
+#ContactInfo{
+
+	width: 53%;
+	margin: auto;
+	float: left;
+	position: relative;
+	padding-left: 5%;
+	text-align: right;
+	vertical-align: bottom;
+	padding-top: 40px;
+
+}
+
+.inf {
+	float: left;
+	position: relative;
+	padding-top: 10px;
+}
+
+.inf2 {
+	float: left;
+	position: relative;
+	padding-top: 30px;
+}
+
+#infoContact {
+	width: 100%;
+	float: left;
+	position: relative;
+text-align: right;
+}
+
+#iconolocal10 {
+	vertical-align: bottom;
+	padding-top: 50px;
+
+
+}
+
+.contactText {
+	margin: 4px 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: #595959;
+	text-align: left;
+
+}
+
+.contactText1 {
+	margin: 4px 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: #595959;
+	text-align: left;
+	padding-top: 10px;
+
+}
+
+.contactText2 {
+	margin: 4px 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: #595959;
+	text-align: left;
+	padding-bottom: 10px;
+
+}
+.titleText {
+	margin: 4px;
+	height: 200px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+	color: #595959;
+	border-right: medium solid #30ADBF;
+	padding-right: 30px;
+	padding-top: 10px;
+
+}
+input, textarea {
+    padding: 9px;
+    border: solid 1px #E5E5E5;
+    outline: 0;
+    font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 12px;
+    width: 350px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    }
+   
+textarea {
+    width: 350px;
+    max-width: 400px;
+    height: 150px;
+    line-height: 150%;
+    }
+   
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+    border-color: #547981;
+    }
+   
+.form label {
+    margin-left: 10px;
+    color: #547981;
+    }
+   
+form#payment button {
+	background: #14ADC2;
+	border: none;
+	border-radius: 2px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight:700;
+	font-size:14px;
+	height:40px;
+	margin: auto;
+	padding: 7px 25px;
+}
+
+form#payment button:hover {
+	background: #127C84;
+	cursor: pointer;
+}
+
+input#fname{
+	background-image:url(images/persona-01.png);
+	background-repeat:no-repeat;
+	background-position:6px;
+	border:1px solid #DADADA;
+	margin-top:12px;
+	padding-left:35px;
+	width:347px;
+	height:40px;
+}
+
+input#email{
+	background-image:url(images/emailicon-01.png);
+	background-repeat:no-repeat;
+	background-position:6px;
+	border:1px solid #DADADA;
+	margin-top:12px;
+	padding-left:35px;
+	width:347px;
+	height:40px;
+}
+
+input#phone{
+	background-image:url(images/telefono-01.png);
+	background-repeat:no-repeat;
+	background-position:6px;
+	border:1px solid #DADADA;
+	margin-top:12px;
+	padding-left:35px;
+	width:347px;
+	height:40px;
+}
+
+.tituloContact {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 22px;
+
+}
+
+#titles {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 13px;
+	
+}
+
+}
+@media screen and (min-width: 750px) and (max-width: 812px) {
+
+	#content {
+	
+	float: left;
+	position: relative;
+	width: 100%;
+}
+
+#ContactForm {
+	width: 45%;
+	margin: auto;
+	float: left;
+	position: relative;
+		padding-bottom: 35px;
+}
+
+#ContactInfo{
+
+	width: 53%;
+	margin: auto;
+	float: left;
+	position: relative;
+	padding-left: 2%;
+	text-align: right;
+	vertical-align: bottom;
+	padding-top: 40px;
+
+}
+
+.inf {
+	float: left;
+	position: relative;
+	padding-top: 10px;
+}
+
+.inf2 {
+	float: left;
+	position: relative;
+	padding-top: 30px;
+}
+
+#infoContact {
+	width: 100%;
+	float: left;
+	position: relative;
+
+}
+
+#iconolocal10 {
+	vertical-align: bottom;
+	padding-top: 50px;
+	padding-right: 15px;
+
+
+}
+
+.contactText {
+	margin: 4px 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: #595959;
+	text-align: left;
+
+}
+
+.contactText1 {
+	margin: 4px 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: #595959;
+	text-align: left;
+	padding-top: 10px;
+
+}
+
+.contactText2 {
+	margin: 4px 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: #595959;
+	text-align: left;
+	padding-bottom: 10px;
+
+}
+.titleText {
+	margin: 4px;
+	height: 200px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+	color: #595959;
+	border-right: medium solid #30ADBF;
+	padding-right: 20px;
+	padding-top: 10px;
+
+}
+input, textarea {
+    padding: 9px;
+    border: solid 1px #E5E5E5;
+    outline: 0;
+    font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 12px;
+    width: 30px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    }
+   
+textarea {
+    width: 320px;
+    max-width: 400px;
+    height: 150px;
+    line-height: 150%;
+    }
+   
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+    border-color: #547981;
+    }
+   
+.form label {
+    margin-left: 10px;
+    color: #547981;
+    }
+   
+form#payment button {
+	background: #14ADC2;
+	border: none;
+	border-radius: 2px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight:700;
+	font-size:14px;
+	height:40px;
+	margin: auto;
+	padding: 7px 25px;
+}
+
+form#payment button:hover {
+	background: #127C84;
+	cursor: pointer;
+}
+
+input#fname{
+	background-image:url(images/persona-01.png);
+	background-repeat:no-repeat;
+	background-position:6px;
+	border:1px solid #DADADA;
+	margin-top:12px;
+	padding-left:35px;
+	width:320px;
+	height:40px;
+}
+
+input#email{
+	background-image:url(images/emailicon-01.png);
+	background-repeat:no-repeat;
+	background-position:6px;
+	border:1px solid #DADADA;
+	margin-top:12px;
+	padding-left:35px;
+	width:320px;
+	height:40px;
+}
+
+input#phone{
+	background-image:url(images/telefono-01.png);
+	background-repeat:no-repeat;
+	background-position:6px;
+	border:1px solid #DADADA;
+	margin-top:12px;
+	padding-left:35px;
+	width:320px;
+	height:40px;
+}
+
+.tituloContact {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 22px;
+
+}
+
+#titles {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 13px;
+	
+}
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 749px) {
+
+	#content {
+	
+	float: left;
+	position: relative;
+	width: 100%;
+}
+
+#ContactForm {
+	width: 60%;
+	margin: auto;
+	float: left;
+	position: relative;
+		padding-bottom: 35px;
+}
+
+#ContactInfo{
+
+	width: 38%;
+	margin: auto;
+	float: left;
+	position: relative;
+	padding-left: 2%;
+	text-align: right;
+	vertical-align: bottom;
+	padding-top: 40px;
+
+}
+
+.inf {
+	height: 200px;
+	float: left;
+	position: relative;
+	padding-top: 10px;
+	
+	
+}
+
+.inf2 {
+	float: left;
+	position: relative;
+	padding-top: 30px;
+}
+
+#infoContact {
+	width: 100%;
+	float: left;
+	position: relative;
+
+}
+
+#iconolocal10 {
+	vertical-align: bottom;
+	padding-top: 50px;
+	padding-right: 15px;
+
+
+}
+
+.contactText {
+	margin: 4px 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: #595959;
+	text-align: left;
+
+}
+
+.contactText1 {
+	margin: 4px 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: #595959;
+	text-align: left;
+	padding-top: 10px;
+
+}
+
+.contactText2 {
+	margin: 4px 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: #595959;
+	text-align: left;
+	padding-bottom: 10px;
+
+}
+.titleText {
+	margin: 4px;
+	height: 200px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+	color: #595959;
+	border-right: medium solid #30ADBF;
+	padding-right: 20px;
+	padding-top: 10px;
+	display: none;
+
+}
+input, textarea {
+    padding: 9px;
+    border: solid 1px #E5E5E5;
+    outline: 0;
+    font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 12px;
+    width: 30px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    }
+   
+textarea {
+    width: 320px;
+    max-width: 400px;
+    height: 150px;
+    line-height: 150%;
+    }
+   
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+    border-color: #547981;
+    }
+   
+.form label {
+    margin-left: 10px;
+    color: #547981;
+    }
+   
+form#payment button {
+	background: #14ADC2;
+	border: none;
+	border-radius: 2px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight:700;
+	font-size:14px;
+	height:40px;
+	margin: auto;
+	padding: 7px 25px;
+}
+
+form#payment button:hover {
+	background: #127C84;
+	cursor: pointer;
+}
+
+input#fname{
+	background-image:url(images/persona-01.png);
+	background-repeat:no-repeat;
+	background-position:6px;
+	border:1px solid #DADADA;
+	margin-top:12px;
+	padding-left:35px;
+	width:320px;
+	height:40px;
+}
+
+input#email{
+	background-image:url(images/emailicon-01.png);
+	background-repeat:no-repeat;
+	background-position:6px;
+	border:1px solid #DADADA;
+	margin-top:12px;
+	padding-left:35px;
+	width:320px;
+	height:40px;
+}
+
+input#phone{
+	background-image:url(images/telefono-01.png);
+	background-repeat:no-repeat;
+	background-position:6px;
+	border:1px solid #DADADA;
+	margin-top:12px;
+	padding-left:35px;
+	width:320px;
+	height:40px;
+}
+
+.tituloContact {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 22px;
+
+}
+
+#titles {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 13px;
+	
+}
+}
+
+@media screen and (min-width: 550px) and (max-width: 599px) {
+
+	#content {
+	
+	float: left;
+	position: relative;
+	width: 100%;
+}
+
+#ContactForm {
+	width: 100%;
+	margin: auto;
+	float: left;
+	position: relative;
+	padding-bottom: 35px;
+	padding-left: 20%;
+}
+
+#ContactInfo{
+
+	width: 100%;
+	margin: auto;
+	float: left;
+	position: relative;
+	padding-left: 2%;
+	text-align: right;
+	vertical-align: bottom;
+	
+	padding: 40px 0 40px 10px;
+
+}
+
+.inf {
+	height: 200px;
+	float: left;
+	position: relative;
+	padding-top: 10px;
+	
+	
+}
+
+.inf2 {
+	float: left;
+	position: relative;
+	padding-top: 30px;
+}
+
+#infoContact {
+	width: 100%;
+	float: left;
+	position: relative;
+
+}
+
+#iconolocal10 {
+	vertical-align: bottom;
+	padding-top: 50px;
+	padding-right: 15px;
+	float: left;
+	position: relative;
+
+
+}
+
+.contactText {
+	margin: 4px 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: #595959;
+	text-align: left;
+
+}
+
+.contactText1 {
+	margin: 4px 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: #595959;
+	text-align: left;
+	padding-top: 10px;
+
+}
+
+.contactText2 {
+	margin: 4px 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: #595959;
+	text-align: left;
+	padding-bottom: 10px;
+
+}
+.titleText {
+	margin: 4px;
+	height: 200px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+	color: #595959;
+	border-right: medium solid #30ADBF;
+	padding-right: 20px;
+	padding-top: 10px;
+	
+}
+input, textarea {
+    padding: 9px;
+    border: solid 1px #E5E5E5;
+    outline: 0;
+    font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 12px;
+    width: 30px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    }
+   
+textarea {
+    width: 320px;
+    max-width: 400px;
+    height: 150px;
+    line-height: 150%;
+    }
+   
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+    border-color: #547981;
+    }
+   
+.form label {
+    margin-left: 10px;
+    color: #547981;
+    }
+   
+form#payment button {
+	background: #14ADC2;
+	border: none;
+	border-radius: 2px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight:700;
+	font-size:14px;
+	height:40px;
+	margin: auto;
+	padding: 7px 25px;
+}
+
+form#payment button:hover {
+	background: #127C84;
+	cursor: pointer;
+}
+
+input#fname{
+	background-image:url(images/persona-01.png);
+	background-repeat:no-repeat;
+	background-position:6px;
+	border:1px solid #DADADA;
+	margin-top:12px;
+	padding-left:35px;
+	width:320px;
+	height:40px;
+}
+
+input#email{
+	background-image:url(images/emailicon-01.png);
+	background-repeat:no-repeat;
+	background-position:6px;
+	border:1px solid #DADADA;
+	margin-top:12px;
+	padding-left:35px;
+	width:320px;
+	height:40px;
+}
+
+input#phone{
+	background-image:url(images/telefono-01.png);
+	background-repeat:no-repeat;
+	background-position:6px;
+	border:1px solid #DADADA;
+	margin-top:12px;
+	padding-left:35px;
+	width:320px;
+	height:40px;
+}
+
+.tituloContact {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 22px;
+
+}
+
+#titles {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 13px;
+	
+}
+}
+@media screen and (min-width: 400px) and (max-width: 549px) {
+
+	#content {
+	
+	float: left;
+	position: relative;
+	width: 100%;
+}
+
+#ContactForm {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	float: left;
+	position: relative;
+	padding-bottom: 35px;
+	
+}
+
+#ContactInfo{
+
+	width: 100%;
+	margin: auto;
+	float: left;
+	position: relative;
+	padding-left: 10%;
+	margin-left: 2%;
+	
+	vertical-align: bottom;
+	
+	padding: 40px 0 40px 10px;
+
+}
+
+.inf {
+	height: 200px;
+	float: left;
+	position: relative;
+	padding-top: 10px;
+	
+	
+}
+
+.inf2 {
+	float: left;
+	position: relative;
+	padding-top: 30px;
+}
+
+#infoContact {
+	width: 100%;
+	float: left;
+	position: relative;
+
+}
+
+#iconolocal10 {
+	vertical-align: bottom;
+	padding-top: 50px;
+	padding-right: 15px;
+	float: left;
+	position: relative;
+	text-align: center;
+	
+
+}
+
+#iconolocaldiv {
+	width: 100%;
+	display: none;
+	
+}
+
+.contactText {
+	margin: 4px 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: #595959;
+	text-align: left;
+
+}
+
+.contactText1 {
+	margin: 4px 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: #595959;
+	text-align: left;
+	padding-top: 10px;
+
+}
+
+.contactText2 {
+	margin: 4px 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: #595959;
+	text-align: left;
+	padding-bottom: 10px;
+
+}
+.titleText {
+	margin: 4px;
+	height: 200px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+	color: #595959;
+	border-right: medium solid #30ADBF;
+	padding-right: 20px;
+	padding-top: 10px;
+	
+}
+input, textarea {
+    padding: 9px;
+    border: solid 1px #E5E5E5;
+    outline: 0;
+    font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 12px;
+    width: 30px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    }
+   
+textarea {
+    width: 320px;
+    max-width: 400px;
+    height: 150px;
+    line-height: 150%;
+    }
+   
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+    border-color: #547981;
+    }
+   
+.form label {
+    margin-left: 10px;
+    color: #547981;
+    }
+   
+form#payment button {
+	background: #14ADC2;
+	border: none;
+	border-radius: 2px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight:700;
+	font-size:14px;
+	height:40px;
+	margin: auto;
+	padding: 7px 25px;
+}
+
+form#payment button:hover {
+	background: #127C84;
+	cursor: pointer;
+}
+
+input#fname{
+	background-image:url(images/persona-01.png);
+	background-repeat:no-repeat;
+	background-position:6px;
+	border:1px solid #DADADA;
+	margin-top:12px;
+	padding-left:35px;
+	width:320px;
+	height:40px;
+}
+
+input#email{
+	background-image:url(images/emailicon-01.png);
+	background-repeat:no-repeat;
+	background-position:6px;
+	border:1px solid #DADADA;
+	margin-top:12px;
+	padding-left:35px;
+	width:320px;
+	height:40px;
+}
+
+input#phone{
+	background-image:url(images/telefono-01.png);
+	background-repeat:no-repeat;
+	background-position:6px;
+	border:1px solid #DADADA;
+	margin-top:12px;
+	padding-left:35px;
+	width:320px;
+	height:40px;
+}
+
+.tituloContact {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 22px;
+
+}
+
+#titles {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 13px;
+	
+}
+}
+@media screen and (min-width: 200px) and (max-width: 399px) {
+
+	#content {
+	
+	float: left;
+	position: relative;
+	width: 100%;
+}
+
+#ContactForm {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	float: left;
+	position: relative;
+	padding-bottom: 35px;
+	
+}
+
+#ContactInfo{
+
+	width: 100%;
+	margin: auto;
+	float: left;
+	position: relative;
+	padding-left: 10%;
+	margin-left: 2%;
+	
+	vertical-align: bottom;
+	
+	padding: 40px 0 40px 10px;
+
+}
+
+.inf {
+	height: 200px;
+	float: left;
+	position: relative;
+	padding-top: 10px;
+	
+	
+}
+
+.inf2 {
+	float: left;
+	position: relative;
+	padding-top: 30px;
+}
+
+#infoContact {
+	width: 100%;
+	float: left;
+	position: relative;
+
+}
+
+#iconolocal10 {
+	vertical-align: bottom;
+	padding-top: 50px;
+	padding-right: 15px;
+	float: left;
+	position: relative;
+	text-align: center;
+	
+
+}
+
+#iconolocaldiv {
+	width: 100%;
+	display: none;
+	
+}
+
+.contactText {
+	margin: 4px 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: #595959;
+	text-align: left;
+
+}
+
+.contactText1 {
+	margin: 4px 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: #595959;
+	text-align: left;
+	padding-top: 10px;
+
+}
+
+.contactText2 {
+	margin: 4px 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: #595959;
+	text-align: left;
+	padding-bottom: 10px;
+
+}
+.titleText {
+	margin: 4px;
+	height: 200px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+	color: #595959;
+	border-right: medium solid #30ADBF;
+	padding-right: 20px;
+	padding-top: 10px;
+	display: none;
+	
+}
+input, textarea {
+    padding: 9px;
+    border: solid 1px #E5E5E5;
+    outline: 0;
+    font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 12px;
+    width: 30px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    }
+   
+textarea {
+    width: 300px;
+    max-width: 400px;
+    height: 150px;
+    line-height: 150%;
+    }
+   
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+    border-color: #547981;
+    }
+   
+.form label {
+    margin-left: 10px;
+    color: #547981;
+    }
+   
+form#payment button {
+	background: #14ADC2;
+	border: none;
+	border-radius: 2px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight:700;
+	font-size:14px;
+	height:40px;
+	margin: auto;
+	padding: 7px 25px;
+}
+
+form#payment button:hover {
+	background: #127C84;
+	cursor: pointer;
+}
+
+input#fname{
+	background-image:url(images/persona-01.png);
+	background-repeat:no-repeat;
+	background-position:6px;
+	border:1px solid #DADADA;
+	margin-top:12px;
+	padding-left:35px;
+	width:300px;
+	height:40px;
+}
+
+input#email{
+	background-image:url(images/emailicon-01.png);
+	background-repeat:no-repeat;
+	background-position:6px;
+	border:1px solid #DADADA;
+	margin-top:12px;
+	padding-left:35px;
+	width:300px;
+	height:40px;
+}
+
+input#phone{
+	background-image:url(images/telefono-01.png);
+	background-repeat:no-repeat;
+	background-position:6px;
+	border:1px solid #DADADA;
+	margin-top:12px;
+	padding-left:35px;
+	width:300px;
+	height:40px;
+}
+
+.tituloContact {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 22px;
+
+}
+
+#titles {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 13px;
+	
+}
+}
+
+/*START STANDS*/
+
+.standsimages {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	text-align: center;
+	padding-top: 5px;
+}

@@ -1,0 +1,52 @@
+#stands {
+	padding-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+
+.colendos {
+	float: left;
+	position: relative;
+	width: 50%;
+}
+
+}
+
+@media screen and (max-width: 500px) {
+
+.colendos2 {
+	float: left;
+	position: relative;
+	width: 50%;
+	padding-right: 5px;
+}
+.colendos3 {
+	float: left;
+	position: relative;
+	width: 50%;
+	padding-left: 5px;
+}
+
+#stands {
+	padding-top: 0;
+}
+
+.standsimages {
+	font-size: 10px;
+}
+}
+
+@media screen and (max-width: 330px) {
+
+.colendos4 {
+	float: left;
+	position: relative;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	
+}
+
+
+}
+
