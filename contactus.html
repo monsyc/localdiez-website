@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset ="utf-8">
+	<meta http-equiv= "X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Local 10 Arquitectura</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,700italic,700' rel='stylesheet' type='text/css'>
+	<link rel="icon" href="images/iconofirmalocal10-01.png" type="image/gif" sizes="16x16">
+	<style type="text/css">
+      @media screen and (min-width: 300px) and (max-width: 649px) {
+      
+      html, body {
+        height: 100%;
+        width: 100%;
+      }
+      a#menu svg {
+        width: 40px;
+        fill: #000;
+        position: left;
+      }
+      nav, main {
+        padding: 1em;
+        box-sizing: border-box;
+      }
+      main {
+        width: 100%;
+        height: 100%;
+        padding-top: 0;
+      }
+      nav {
+        width: 80%;
+        
+        position: absolute;
+        padding: 0;
+        /* This trasform moves the drawer off canvas. */
+        -webkit-transform: translate(600px, 0);
+        transform: translate(600px, 0);
+        /* Optionally, we animate the drawer. */
+        transition: transform 0.4s ease;
+      }
+      nav.open {
+        -webkit-transform: translate(98%, 0);
+        transform: translate(5%, 0);
+      }
+      }
+
+      	input#fname{
+		background-image:url(images/persona-01.png);
+	}
+	  	input#email{
+		background-image:url(images/emailicon-01.png);
+	}
+
+		input#phone{
+	background-image:url(images/telefono-01.png);
+	}
+
+    </style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+<!-- START TOP MENU	 -->
+		
+	<div id="container1"><!-- START CONTAINER -->
+		<div id="container2">  <!-- START CONTAINER 2 -->
+			<div> <!-- START ROW LOGO/ NAVBAR -->
+				<div id="RowLogo"> <!-- logo -->
+					<a href="index2.html"><img src="images/logo.png" alt="logo local 10" id="logo"></a>	
+				</div>
+				<div id="NavIdiomas"> <!-- nav bar/ idiomas -->
+					<div id="idiomas"> <!-- START IDIOMAS -->
+						<p class="idioms"><a href="contactanos.html" class="idioms">español</a> / <a href="contactus.html" class="idioms">english</a></p>
+					</div> <!-- END IDIOMAS -->
+					<div id="navbar"> <!-- START NAVBAR -->
+						<nav>
+							<ul>
+								<li>
+									<a href="index2.html">HOME</a>
+								</li>
+								<li>
+									<a href="whoweare.html">WHO WE ARE ?</a>
+								</li>
+								<li>
+									<a href="#">PROJECTS</a>
+										<ul>										
+											<li>
+												<a href="stands2.html">STANDS</a>
+											</li>
+											<li>
+												<a href="#">DISPLAYS</a>
+											</li>
+											<li>
+												<a href="#">ARCHITECTURE</a>
+											</li>
+											<li>
+												<a href="#">SHOWROOMS</a>
+											</li>
+										</ul>
+								</li>
+								<li>
+									<a href="contactanos.html">CONTACT US</a>
+								</li>
+							</ul>
+						</nav>
+					</div> <!-- END NAVBAR -->
+					<div id="navbar2">
+						<nav id="drawer" class="dark_blue">
+	      					<ul>
+								<li>
+									<a href="index2.html">HOME</a>
+								</li>
+								<li>
+									<a href="whoweare.html">WHO WE ARE ?</a>
+								</li>
+																		
+											<li>
+												<a href="stands2.html">STANDS</a>
+											</li>
+											<li>
+												<a href="#">DISPLAYS</a>
+											</li>
+											<li>
+												<a href="#">ARCHITECTURE</a>
+											</li>
+											<li>
+												<a href="#">SHOWROOM</a>
+											</li>
+										
+								<li>
+									<a href="contactus.html">CONTACT US</a>
+								</li>
+							</ul>
+	    				</nav>
+
+	    				<main class="light_blue">
+	     	 				<div id="box">
+		     	 				<a id="menu">
+			        				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+			          					<path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"/>
+			        				</svg>
+		      					</a>
+	      					</div>	
+	    				</main>
+					</div>
+
+				</div> <!-- END NAVBAR/ IDIOMAS -->
+			</div> <!-- END ROW LOGO/ NAVBAR -->
+
+					<div id="content"> <!-- START CONTENT -->
+			<div id="ContactForm"> <!-- START CONTACT FORM -->
+				<p class="tituloContact">Write us an e-mail</p>
+				<form action="mailto:silva.castro.mony@gmail.com" id="payment">
+            
+	                <p class="name">
+	                    <label for="name" class="fill"></label>
+	                    <input id="fname" name="name" type="text" placeholder="Anely Vela" required autofocus>
+	                </p>
+	                <p class="email">
+	                    <label for="email" class="fill"></label>
+	                    <input id="email" name="email" type="email" placeholder="example@gmail.com" required>
+	                </p>
+	                <p class="phone">
+	                    <label for="phone" class="fill"></label>
+	                    <input id="phone" name="phone" type="tel" placeholder="Eg. +447500000000" required>
+	                </p>
+		            <p id="titles">Description</p>
+		            <p class="text">
+		                <textarea name="text"></textarea>
+		            </p>
+				    <p class="submit">
+				        <button type="submit">SEND</button>
+				    </p>
+        		</form>
+			</div> <!-- END CONTACT FORM -->
+			
+						
+					
+			<div id="ContactInfo"><!--  START CONTACT INFO -->
+				<div class="inf">
+					<p class="titleText">Contact us</p>
+				</div>
+						<div class="inf">
+							<p class="contactText1">Calzada Del Valle, #409, piso2, suite250,</p>
+							<p class="contactText">Col. Del Valle C.P. 66220</p>
+							<p class="contactText2">San Pedro Garza Garcia, N.L., Mexico</p>
+							<p class="contactText">+52 (81) 83.33.60.56 ext.26</p>
+							<p class="contactText">+52 (81) 83.47.50.30</p>
+							<p class="contactText2">+52 (81) 83.33.50.91</p>
+							<p class="contactText">contacto@local10.mx</p>
+
+						</div>	
+						<div id="iconolocaldiv">		
+						<img src="images/iconolocal10-01-01.png" id="iconolocal10">
+						</div>	
+				</div>
+				
+			</div> <!-- END CONTACT INFO -->
+		</div> <!-- END CONTENT -->
+
+			<!-- START SOCIAL MEDIA -->
+			<div id="DR">
+				<hr id="linea2">
+				<p id="leyenda">© 2016 Local 10 - All Rights Reserved. design by <a href="monicasilva.co" id="monica">monicasilva.co</a> </p>
+			</div>
+			<div id="SM">
+				<ul >
+					<li class="icon">
+						<a href="https://www.facebook.com/localdiez?fref=ts"><img src="images/fbicon.png"></a>
+					</li>
+					<li class="icon">
+						<a href="https://www.pinterest.com/dhdzgarcia1/stands-de-local-10-arquitectura/"><img src="images/picon.png"></a>
+					</li>
+				</ul>
+			</div>
+			<!-- END SOCIAL MEDIA -->
+		</div> <!-- END CONTAINER 2 -->
+	</div> <!-- END CONTAINER -->
+	
+	<script>
+      /*
+       * Open the drawer when the menu ison is clicked.
+       */
+      var menu = document.querySelector('#menu');
+      var main = document.querySelector('main');
+      var drawer = document.querySelector('#drawer');
+
+      menu.addEventListener('click', function(e) {
+        drawer.classList.toggle('open');
+        e.stopPropagation();
+      });
+      main.addEventListener('click', function() {
+        drawer.classList.remove('open');
+      });
+
+    </script>
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
