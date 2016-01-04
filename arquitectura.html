@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset ="utf-8">
+	<meta http-equiv= "X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Local 10 Arquitectura</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+    <link rel="stylesheet" type="text/css" href="css/style3.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,700italic,700' rel='stylesheet' type='text/css'>
+    <link rel="icon" href="images/iconofirmalocal10-01.png" type="image/gif" sizes="16x16">
+	<style type="text/css">
+      @media screen and (min-width: 300px) and (max-width: 649px) {
+      
+      html, body {
+        height: 100%;
+        width: 100%;
+      }
+      a#menu svg {
+        width: 40px;
+        fill: #000;
+        position: left;
+      }
+      nav, main {
+        padding: 1em;
+        box-sizing: border-box;
+      }
+      main {
+        width: 100%;
+        height: 100%;
+        padding-top: 0;
+      }
+      nav {
+        width: 80%;
+        
+        position: absolute;
+        padding: 0;
+        /* This trasform moves the drawer off canvas. */
+        -webkit-transform: translate(600px, 0);
+        transform: translate(600px, 0);
+        /* Optionally, we animate the drawer. */
+        transition: transform 0.4s ease;
+      }
+      nav.open {
+        -webkit-transform: translate(98%, 0);
+        transform: translate(5%, 0);
+      }
+      }
+
+      	input#fname{
+		background-image:url(images/persona-01.png);
+	}
+	  	input#email{
+		background-image:url(images/emailicon-01.png);
+	}
+
+		input#phone{
+	background-image:url(images/telefono-01.png);
+	}
+
+    </style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+<!-- START TOP MENU	 -->
+		
+	<div id="container1"><!-- START CONTAINER -->
+		<div id="container2">  <!-- START CONTAINER 2 -->
+			<div> <!-- START ROW LOGO/ NAVBAR -->
+				<div id="RowLogo"> <!-- logo -->
+					<a href="index.html"><img src="images/logo.png" alt="logo local 10" id="logo"></a>	
+				</div>
+				<div id="NavIdiomas"> <!-- nav bar/ idiomas -->
+					<div id="idiomas"> <!-- START IDIOMAS -->
+						<p class="idioms"><a href="stands.html" class="idioms">español</a> / <a href="stands2.html" class="idioms">english</a></p>
+					</div> <!-- END IDIOMAS -->
+					<div id="navbar"> <!-- START NAVBAR -->
+						<nav>
+							<ul>
+								<li>
+									<a href="index.html">INICIO</a>
+								</li>
+								<li>
+									<a href="quienessomos.html">QUIÉNES SOMOS ?</a>
+								</li>
+								<li>
+									<a href="#">PROYECTOS</a>
+										<ul>										
+											<li>
+												<a href="stands.html">STANDS</a>
+											</li>
+											<li>
+												<a href="displays.html">DISPLAYS</a>
+											</li>
+											<li>
+												<a href="#">ARQUITECTURA</a>
+											</li>
+											<li>
+												<a href="#">SALAS EXHIBICIÓN</a>
+											</li>
+										</ul>
+								</li>
+								<li>
+									<a href="contactanos.html">CONTÁCTANOS</a>
+								</li>
+							</ul>
+						</nav>
+					</div> <!-- END NAVBAR -->
+					<div id="navbar2">
+						<nav id="drawer" class="dark_blue">
+	      					<ul>
+								<li>
+									<a href="index.html">INICIO</a>
+								</li>
+								<li>
+									<a href="quienessomos.html">QUIÉNES SOMOS ?</a>
+								</li>
+																		
+											<li>
+												<a href="stands.html">STANDS</a>
+											</li>
+											<li>
+												<a href="displays.html">DISPLAYS</a>
+											</li>
+											<li>
+												<a href="#">ARQUITECTURA</a>
+											</li>
+											<li>
+												<a href="#">SALAS EXHIBICIÓN</a>
+											</li>
+										
+								<li>
+									<a href="contactanos.html">CONTÁCTANOS</a>
+								</li>
+							</ul>
+	    				</nav>
+
+	    				<main class="light_blue">
+	     	 				<div id="box">
+		     	 				<a id="menu">
+			        				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+			          					<path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"/>
+			        				</svg>
+		      					</a>
+	      					</div>	
+	    				</main>
+					</div>
+
+				</div> <!-- END NAVBAR/ IDIOMAS -->
+			</div> <!-- END ROW LOGO/ NAVBAR -->
+
+ <div class="row ab">
+            <div class="col-xs-12 col-sm-12 col-md-12" id="stands">              
+                <hr>
+                <p class="wwa">
+                    ARQUITECTURA
+                </p>
+            </div>
+       </div>
+
+        <div class="row portfolio "><!-- START ROW 1 -->
+            <div class="colendos col-sm-3 col-md-3 colendos2 colendos4"><!--  START COL 1 -->
+        <!-- START MODAL CON CAROUSEL 1  -->
+        <!-- Button trigger modal --> 
+                <a data-toggle="modal" href="#myModal2" ><img src="images4/casaAdam2014-1.jpg" class="img-responsive displayed imgs"></a>
+                <!-- Modal -->
+                <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                 <h4 class="modal-title">Casa Adam Cleary 2014</h4>
+
+                            </div>
+                            <div class="modal-body">
+                                <div id="carousel-example-generic" class="carousel slide">
+                                    <!-- Indicators -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Wrapper for slides -->
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img src="images4/casaAdam2014-2.jpg" alt="casa Adam" />
+                                            <div class="carousel-caption">
+                                                 <h3></h3>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img src="images4/casaAdam2014-3.jpg" alt="casa Adam" />
+                                            <div class="carousel-caption">
+                                                 <h3></h3>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img src="images4/casaAdam2014-4.jpg" alt="casa Adam" />
+                                            <div class="carousel-caption">
+                                                 <h3></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Controls --> <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                    <span class="icon-prev"></span>
+                  </a>
+                 <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                    <span class="icon-next"></span>
+                  </a>
+
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                 <p class="textmodal">&hellip;</p>
+                            </div>
+                        </div>
+                        <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                </div>
+            <p class="standsimages">Casa Adam Cleary 2014</p>
+            </div><!-- END COL 1 -->
+                         <div class="colendos col-sm-3 col-md-3 colendos3 colendos4"><!--  START COL 2 -->
+        <!-- START MODAL CON CAROUSEL 1  -->
+        <!-- Button trigger modal --> 
+                <a data-toggle="modal" href="#myModal" ><img src="images4/casaCarlos2014-1.jpg" class="img-responsive displayed" alt="porcelanite Cihac"></a>
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                 <h4 class="modal-title">Casa Cano Guzmán 2014</h4>
+
+                            </div>
+                            <div class="modal-body">
+                                <div id="carousel-example-generic2" class="carousel slide">
+                                    <!-- Indicators -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Wrapper for slides -->
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img src="images4/casaCarlos2014-2.jpg" alt="Casa Carlos" />
+                                            <div class="carousel-caption">
+                                                 <h3></h3>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img src="images4/casaCarlos2014-3.jpg" alt="Casa Carlos" />
+                                            <div class="carousel-caption">
+                                                 <h3></h3>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img src="images4/casaCarlos2014-4.jpg" alt="Casa Carlos" />
+                                            <div class="carousel-caption">
+                                                 <h3></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Controls --> <a class="left carousel-control" href="#carousel-example-generic2" data-slide="prev">
+                    <span class="icon-prev"></span>
+                  </a>
+                 <a class="right carousel-control" href="#carousel-example-generic2" data-slide="next">
+                    <span class="icon-next"></span>
+                  </a>
+
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <p class="textmodal">&hellip;</p>
+                            </div>
+                        </div>
+                        <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                </div>
+            <p class="standsimages">Casa Cano Guzmán 2014</p>
+            </div><!-- END COL 2 -->   
+            <div class="col-sm-3 col-md-3 colendos colendos4 colendos2"><!--  START COL 3 -->
+        <!-- START MODAL CON CAROUSEL 1  -->
+        <!-- Button trigger modal --> 
+                <a data-toggle="modal" href="#myModal3" ><img src="images4/ingeniat2014-1.jpg" class="img-responsive displayed"></a>
+                <!-- Modal -->
+                <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                 <h4 class="modal-title">Ingeniat 2014</h4>
+
+                            </div>
+                            <div class="modal-body">
+                                <div id="carousel-example-generic3" class="carousel slide">
+                                    <!-- Indicators -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Wrapper for slides -->
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img src="images4/ingeniat2014-2.jpg" alt=" Ingeniat 2014" />
+                                            <div class="carousel-caption">
+                                                 <h3></h3>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img src="images4/ingeniat2014-3.jpg" alt=" Ingeniat 2014" />
+                                            <div class="carousel-caption">
+                                                 <h3></h3>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img src="images4/ingeniat2014-4.jpg" alt=" Ingeniat 2014" />
+                                            <div class="carousel-caption">
+                                                 <h3></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Controls --> <a class="left carousel-control" href="#carousel-example-generic3" data-slide="prev">
+                    <span class="icon-prev"></span>
+                  </a>
+                 <a class="right carousel-control" href="#carousel-example-generic3" data-slide="next">
+                    <span class="icon-next"></span>
+                  </a>
+
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <p class="textmodal">&hellip;</p>
+                            </div>
+                        </div>
+                        <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                </div>
+            <p class="standsimages">ingeniat 2014</p>
+            </div><!-- END COL 3 -->
+                        <div class="col-sm-3 col-md-3 colendos colendos4 colendos3"><!--  START COL 4 -->
+        <!-- START MODAL CON CAROUSEL 1  -->
+        <!-- Button trigger modal --> 
+                <a data-toggle="modal" href="#myModal4" ><img src="images4/casaGarza2014-1.jpg" class="img-responsive displayed"></a>
+                <!-- Modal -->
+                <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                 <h4 class="modal-title">Casa Garza González 2014</h4>
+
+                            </div>
+                            <div class="modal-body">
+                                <div id="carousel-example-generic4" class="carousel slide">
+                                    <!-- Indicators -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Wrapper for slides -->
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img src="images4/casaGarza2014-2.jpg" alt="Casa Garza" />
+                                            <div class="carousel-caption">
+                                                 <h3></h3>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img src="images4/casaGarza2014-3.jpg" alt="Casa Garza" />
+                                            <div class="carousel-caption">
+                                                 <h3></h3>
+                                            </div>
+                                        </div>
+                                       <div class="item">
+                                            <img src="images4/casaGarza2014-4.jpg" alt="Casa Garza" />
+                                            <div class="carousel-caption">
+                                                 <h3></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Controls --> <a class="left carousel-control" href="#carousel-example-generic4" data-slide="prev">
+                    <span class="icon-prev"></span>
+                  </a>
+                 <a class="right carousel-control" href="#carousel-example-generic4" data-slide="next">
+                    <span class="icon-next"></span>
+                  </a>
+
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                               <p class="textmodal">&hellip;</p>
+                            </div>
+                        </div>
+                        <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                </div>
+            <p class="standsimages"> Casa Garza González 2014 </p>
+            </div><!-- END COL 4 -->
+        <!-- /.modal -->
+        <!-- END MODAL CON CAROUSEL -->
+        </div> <!-- END ROW 1 -->
+
+        <div class=" row portfolio"><!-- START ROW 2 -->
+            <div class="col-sm-3 col-md-3 colendos colendos4 colendos2"><!--  START COL 1 -->
+        <!-- START MODAL CON CAROUSEL 1  -->
+        <!-- Button trigger modal --> 
+                <a data-toggle="modal" href="#myModal5" ><img src="images4/casaOlinala2011-1.jpg" class="img-responsive displayed"></a>
+                <!-- Modal -->
+                <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                 <h4 class="modal-title">Casa Olinala 2014</h4>
+
+                            </div>
+                            <div class="modal-body">
+                                <div id="carousel-example-generic5" class="carousel slide">
+                                    <!-- Indicators -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Wrapper for slides -->
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img src="images4/casaOlinala2011-2.jpg" alt="Casa Olinala" />
+                                            <div class="carousel-caption">
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img src="images4/casaOlinala2011-3.jpg" alt="Casa Olinala" />
+                                            <div class="carousel-caption">
+                                            </div>
+                                        </div> 
+                                        <div class="item">
+                                            <img src="images4/casaOlinala2011-4.jpg" alt="Casa Olinala" />
+                                            <div class="carousel-caption">
+                                            </div>
+                                        </div>                    
+                                    </div>
+                                    <!-- Controls --> <a class="left carousel-control" href="#carousel-example-generic5" data-slide="prev">
+                    <span class="icon-prev"></span>
+                  </a>
+                 <a class="right carousel-control" href="#carousel-example-generic5" data-slide="next">
+                    <span class="icon-next"></span>
+                  </a>
+
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                               <p class="textmodal">&hellip;</p>
+                            </div>
+                        </div>
+                        <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                </div>
+            <p class="standsimages">Casa Olinala 2014</p>
+            </div><!-- END COL 1 -->
+               <div class="col-sm-3 col-md-3 colendos colendos4 colendos3"><!--  START COL 2 -->
+        <!-- START MODAL CON CAROUSEL 1  -->
+        <!-- Button trigger modal --> 
+                <a data-toggle="modal" href="#myModal6" ><img src="images4/lanx2010-1.jpg" class="img-responsive displayed"></a>
+                <!-- Modal -->
+                <div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                 <h4 class="modal-title">Restaurante Lanx 2010</h4>
+
+                            </div>
+                            <div class="modal-body">
+                                <div id="carousel-example-generic6" class="carousel slide">
+                                    <!-- Indicators -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Wrapper for slides -->
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img src="images4/lanx2010-2.jpg" alt="Restaurante Lanx" />
+                                            <div class="carousel-caption">
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                              <img src="images4/lanx2010-3.jpg" alt="Restaurante Lanx" />
+                                            <div class="carousel-caption">
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                              <img src="images4/lanx2010-4.jpg" alt="Restaurante Lanx" />
+                                            <div class="carousel-caption">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Controls --> <a class="left carousel-control" href="#carousel-example-generic6" data-slide="prev">
+                    <span class="icon-prev"></span>
+                  </a>
+                 <a class="right carousel-control" href="#carousel-example-generic6" data-slide="next">
+                    <span class="icon-next"></span>
+                  </a>
+
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <p class="textmodal">&hellip;</p>
+                            </div>
+                        </div>
+                        <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                </div>
+            <p class="standsimages">Restaurante Lanx 2010</p>
+            </div><!-- END COL 2 -->   
+            <div class="col-sm-3 col-md-3 colendos colendos4 colendos2"><!--  START COL 3 -->
+        <!-- START MODAL CON CAROUSEL 1  -->
+        <!-- Button trigger modal --> 
+                <a data-toggle="modal" href="#myModal7" ><img src="images4/sanjuan2008-1.jpg" class="img-responsive displayed"></a>
+                <!-- Modal -->
+                <div class="modal fade" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                 <h4 class="modal-title">Iglesia San Juan 2008</h4>
+
+                            </div>
+                            <div class="modal-body">
+                                <div id="carousel-example-generic7" class="carousel slide">
+                                    <!-- Indicators -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                       <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Wrapper for slides -->
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img src="images4/sanjuan2008-2.jpg" alt="San Juan Iglesia" />
+                                            <div class="carousel-caption">
+                                            </div>
+                                        </div>
+                                        <div class="item active">
+                                            <img src="images4/sanjuan2008-3.jpg" alt="San Juan Iglesia" />
+                                            <div class="carousel-caption">
+                                            </div>
+                                        </div>
+                                        <div class="item active">
+                                            <img src="images4/sanjuan2008-4.jpg" alt="San Juan Iglesia" />
+                                            <div class="carousel-caption">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Controls --> <a class="left carousel-control" href="#carousel-example-generic7" data-slide="prev">
+                    <span class="icon-prev"></span>
+                  </a>
+                 <a class="right carousel-control" href="#carousel-example-generic7" data-slide="next">
+                    <span class="icon-next"></span>
+                  </a>
+
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <p class="textmodal">&hellip;</p>
+                            </div>
+                        </div>
+                        <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                </div>
+            <p class="standsimages">Iglesia San Juan 2008</p>
+            </div><!-- END COL 3 -->
+              <div class="col-sm-3 col-md-3 colendos colendos4 colendos3"><!--  START COL 4 -->
+        <!-- START MODAL CON CAROUSEL 1  -->
+        <!-- Button trigger modal --> 
+                <a data-toggle="modal" href="#myModal8" ><img src="images4/centromty2006-1.jpg" class="img-responsive displayed"></a>
+                <!-- Modal -->
+                <div class="modal fade" id="myModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                 <h4 class="modal-title">Centro Comercial Monterrey 2006</h4>
+
+                            </div>
+                            <div class="modal-body">
+                                <div id="carousel-example-generic8" class="carousel slide">
+                                    <!-- Indicators -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Wrapper for slides -->
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img src="images4/centromty2006-2.jpg" alt="Centro comercial monterrey" />
+                                            <div class="carousel-caption">
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                           <img src="images4/centromty2006-3.jpg" alt="Centro comercial monterrey" />
+                                            <div class="carousel-caption">
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                           <img src="images4/centromty2006-4.jpg" alt="Centro comercial monterrey" />
+                                            <div class="carousel-caption">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Controls --> <a class="left carousel-control" href="#carousel-example-generic8" data-slide="prev">
+                    <span class="icon-prev"></span>
+                  </a>
+                 <a class="right carousel-control" href="#carousel-example-generic8" data-slide="next">
+                    <span class="icon-next"></span>
+                  </a>
+
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <p class="textmodal">&hellip;</p>
+                            </div>
+                        </div>
+                        <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                </div>
+            <p class="standsimages">Centro Comercial 2006 </p>
+            </div><!-- END COL 4 -->   
+        <!-- /.modal -->
+        <!-- END MODAL CON CAROUSEL -->
+        </div> <!-- END ROW 2 -->
+              
+			<!-- START SOCIAL MEDIA -->
+			<div id="DR">
+				<hr id="linea2">
+				<p id="leyenda">© 2016 Local 10 - Derechos Reservados. diseñado por <a href="monicasilva.co" id="monica">monicasilva.co</a> </p>
+			</div>
+			<div id="SM">
+				<ul >
+					<li class="icon">
+						<a href="https://www.facebook.com/localdiez?fref=ts"><img src="images/fbicon.png"></a>
+					</li>
+					<li class="icon">
+						<a href="https://www.pinterest.com/dhdzgarcia1/stands-de-local-10-arquitectura/"><img src="images/picon.png"></a>
+					</li>
+				</ul>
+			</div>
+			<!-- END SOCIAL MEDIA -->
+		</div> <!-- END CONTAINER 2 -->
+	</div> <!-- END CONTAINER -->
+	
+	<script>
+      /*
+       * Open the drawer when the menu ison is clicked.
+       */
+      var menu = document.querySelector('#menu');
+      var main = document.querySelector('main');
+      var drawer = document.querySelector('#drawer');
+
+      menu.addEventListener('click', function(e) {
+        drawer.classList.toggle('open');
+        e.stopPropagation();
+      });
+      main.addEventListener('click', function() {
+        drawer.classList.remove('open');
+      });
+
+    </script>
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
