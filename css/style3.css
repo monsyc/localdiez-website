@@ -53,3 +53,98 @@
 .textmodal {
 	text-align: left;
 }
+
+#leyendaContact{
+	float: left;
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	color:#595959;
+	padding-top: 50px;
+	padding-left: 0;
+	text-align: center;
+
+}
+
+.textm {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 11px;
+	color:#595959;
+}
+
+#imagenQuienes{
+	float: left;
+	position: relative;
+	margin-right: 15px;
+}
+
+#textoQuienes {
+	float: left;
+	position: relative;
+	
+}
+
+.public {
+	float: left;
+	position: relative;
+	width: 50%;
+}
+
+.libro {
+	float: left;
+	position: relative;
+	margin-right: 20px;
+}
+
+.textlibro {
+	float: left;
+	position: relative;
+	width: 80%;
+	padding-top: 
+
+}
+
+.text {
+	padding-top: 35px;
+}
+.text2 {
+	padding-top: 20px;
+}
+
+#linea3 {
+	padding-top: 20px;
+}
+
+@media screen and (max-width: 556px) {
+	.public {
+	float: left;
+	position: relative;
+	width: 100%;
+	padding-top: 40px;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+		.infog2 {
+		display: none;
+	}
+}
+@media screen and (min-width: 601px) {
+	.infog {
+		display: none;
+	}
+}
+
+.infog {
+	text-align: center;
+}
+.infog2 {
+	text-align: center;
+}
+
+#infographic {
+	width: 80%;
+}

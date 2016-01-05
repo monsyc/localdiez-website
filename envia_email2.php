@@ -18,7 +18,7 @@
   if(!$success) {   
        echo "Error";   
   } else {
-      echo file_get_contents("contactanos2.html");
+      echo file_get_contents("contactus2.html");
   }
   
 	header('Location: contactanos.html');
