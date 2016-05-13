@@ -1,0 +1,5 @@
+ul li .par2 {
+	display:list-item;
+	list-style-type: square;
+	list-style-position: inside;
+}
