@@ -9,7 +9,7 @@ function loadPage() {
     $('body').prepend('<div id="progress"><img class="loader" src="images/loading-logo.png"/></div>'); 
     scrollTo(0,0); 
     $(window).load(function(){
-    	var loadTime = 500;
+    	var loadTime = 100;
         $('#progress').fadeOut(loadTime, function(){
         	$("#loader").fadeIn(loadTime).contents().unwrap();
         }); 
