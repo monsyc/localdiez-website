@@ -11,49 +11,9 @@
 	<link rel="stylesheet" type="text/css" href="css/style2.css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,700italic,700' rel='stylesheet' type='text/css'>
 	<link rel="icon" href="images/iconofirmalocal10-01.png" type="image/gif" sizes="16x16">
-	<style type="text/css">
-      @media screen and (min-width: 300px) and (max-width: 649px) {
-      
-      html, body {
-        height: 100%;
-        width: 100%;
-      }
-      a#menu svg {
-        width: 40px;
-        fill: #000;
-        position: left;
-      }
-      nav, main {
-        padding: 1em;
-        box-sizing: border-box;
-      }
-      main {
-        width: 100%;
-        height: 100%;
-        padding-top: 0;
-      }
-      nav {
-        width: 80%;
-        
-        position: absolute;
-        padding: 0;
-        /* This trasform moves the drawer off canvas. */
-        -webkit-transform: translate(600px, 0);
-        transform: translate(600px, 0);
-        /* Optionally, we animate the drawer. */
-        transition: transform 0.4s ease;
-      }
-      nav.open {
-        -webkit-transform: translate(98%, 0);
-        transform: translate(5%, 0);
-      }
-      }
-
-
-    </style>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
 
 </head>
 <body>
@@ -63,7 +23,7 @@
 		<div id="container2">  <!-- START CONTAINER 2 -->
 			<div> <!-- START ROW LOGO/ NAVBAR -->
 				<div id="RowLogo"> <!-- logo -->
-					<a href="index.html"><img src="images/logo3-01.png" alt="logo local 10" id="logo"></a>	
+					<a href="index.html"><img src="images/logo.png" alt="logo local 10" id="logo"></a>	
 				</div>
 				<div id="NavIdiomas"> <!-- nav bar/ idiomas -->
 					<div id="idiomas"> <!-- START IDIOMAS -->
@@ -91,7 +51,7 @@
 												<a href="arquitectura.html">ARQUITECTURA</a>
 											</li>
 											<li>
-												<a href="salas.html">SALAS EXHIBICIÓN</a>
+												<a href="salas.html">SALAS</a>
 											</li>
 										</ul>
 								</li>
@@ -121,7 +81,7 @@
 												<a href="arquitectura.html">ARQUITECTURA</a>
 											</li>
 											<li>
-												<a href="salas.html">SALAS EXHIBICIÓN</a>
+												<a href="salas.html">SALAS</a>
 											</li>
 										
 								<li>
@@ -157,11 +117,12 @@
 		    <!-- Wrapper for slides -->
 		    	<div class="carousel-inner" role="listbox">
 		      		<div class="item active">
-		        		<img src="images2/carrousel1.jpg" class="img-responsive displayed"alt="ambiente lamosa">
+		        		<img src="images2/carrousel1.jpg" class="img-responsive displayed" alt="ambiente">
 		      		</div>
 
 		      		<div class="item">
-		        		<img src="images2/carrousel2.jpg"class="img-responsive displayed" alt="ambiente porcelanite" >
+		        		<img src="images2/carrousel2.jpg"
+						class="img-responsive displayed" alt="ambiente porcelanite" >
 		      		</div>
 		    
 		      		<div class="item">
@@ -200,11 +161,11 @@
 		    <!-- Wrapper for slides -->
 		    	<div class="carousel-inner" role="listbox">
 		      		<div class="item active">
-		        		<img src="images2/carrousel1p.jpg" class="img-responsive displayed"alt="ambiente lamosa">
+		        		<img src="images2/carrousel1p.jpg" class="img-responsive displayed" alt="ambiente">
 		      		</div>
 
 		      		<div class="item">
-		        		<img src="images2/carrousel2p.jpg"class="img-responsive displayed" alt="ambiente porcelanite" >
+		        		<img src="images2/carrousel2p.jpg" alt="ambiente porcelanite" class="img-responsive displayed">
 		      		</div>
 		    
 		      		<div class="item">
@@ -231,30 +192,32 @@
 			<!-- END CARROUSEL 2-->
 			<div id="frase">
 				
-					<img src="images2/frase-01-01.png" id="frase2" alt="todo es diseño de paul rand">
-				
-
+					<img src="images/frase6-01.png" id="frase2" alt="todo es diseño de paul rand" id="phrase1">
 			</div>
 			<div id="Rwork"> <!-- START PROYECTOS RECIENTES -->
 				<hr>
 				<p id="PR">PROYECTOS RECIENTES</p>
 			</div>
-			<div id="proyectosimages">
-				<div>
-					<a href="stands.html"><img src="images2/firenze_arquitectos.jpg" class="imagesp imagesp3" alt="stand para marca firenze"></a>
+			<!-- END PROYECTOS RECIENTES -->
+			<div class="row" style="padding:0 15px;">
+					<div class="col-xs-6 col-sm-3 col-md-3" style="padding:0 1px;">
+							<a href="stands.html"><img src="images2/firenze_arquitectos.jpg  " class="img-responsive"></a>
+							<p class="standsimages">Firenze </br>Pabellón M (2015)</p>
+							
+					</div>
+					<div class="col-xs-6 col-sm-3 col-md-3" style="padding:0 1px;">
+							<a href="stands.html"><img src="images2/porcelanite_cihac.jpg" class="img-responsive"></a>
+							<p class="standsimages">Porcelanite</br>Expo CIHAC 2015</p>
+					</div>
+					<div class="col-xs-6 col-sm-3 col-md-3" style="padding:0 1px;">
+							<a href="stands.html"><img src="images2/lamosa_cihac.jpg" class="img-responsive"></a>
+							<p class="standsimages">Lamosa</br>Expo CIHAC 2015</p>
+					</div>
+					<div class="col-xs-6 col-sm-3 col-md-3" style="padding:0 1px;">
+							<a href="stands.html"><img src="images2/gante_cihac.jpg" class="img-responsive"></a>
+							<p class="standsimages">Gante</br>Expo CIHAC 2015</p>
+					</div>
 				</div>
-				<div>
-					<a href="stands.html"><img src="images2/porcelanite_cihac.jpg" class="imagesp imagesp1" alt="stand para marca porcelanite"></a>
-				</div>
-				<div>
-					<a href="stands.html"><img src="images2/lamosa_cihac.jpg" class="imagesp imagesp2" alt="stand para marca lamosa"></a>
-				</div>
-				<div>
-					<a href="stands.html"><img src="images2/gante_cihac.jpg" class="imagesp imagesp4" alt="stand para marcar gante"></a>
-				</div>
-			
-			</div> <!-- END PROYECTOS RECIENTES -->
-			
 			<!-- START SOCIAL MEDIA -->
 			<div id="DR">
 				<hr id="linea2">

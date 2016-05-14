@@ -1,5 +1,5 @@
 #RowLogo{
-	padding-top: 16px;
+	padding-top: 18px;
 }
 
 #logoicono{
@@ -7,6 +7,16 @@
 	width: 100%;
 	padding-bottom: 12px;
 }
+
+.TitleAwards{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	color:#595959;
+	margin: 20px 0 10px 0;
+}
+
+#premiosul{}
 
 @media screen and (min-width: 1000px) {
 #navbar2 {
@@ -1415,7 +1425,7 @@ form#payment button:hover {
 }
 
 input#fname{
-	background-image:url(images/persona-01.png);
+	background-image:url(../images/persona-01.png);
 	background-repeat:no-repeat;
 	background-position:6px;
 	border:1px solid #DADADA;
@@ -1426,7 +1436,7 @@ input#fname{
 }
 
 input#email{
-	background-image:url(images/emailicon-01.png);
+	background-image:url(../images/emailicon-01.png);
 	background-repeat:no-repeat;
 	background-position:6px;
 	border:1px solid #DADADA;
@@ -1437,7 +1447,7 @@ input#email{
 }
 
 input#phone{
-	background-image:url(images/telefono-01.png);
+	background-image:url(../images/telefono-01.png);
 	background-repeat:no-repeat;
 	background-position:6px;
 	border:1px solid #DADADA;
@@ -1613,7 +1623,7 @@ form#payment button:hover {
 }
 
 input#fname{
-	background-image:url(images/persona-01.png);
+	background-image:url(../images/persona-01.png);
 	background-repeat:no-repeat;
 	background-position:6px;
 	border:1px solid #DADADA;
@@ -1624,7 +1634,7 @@ input#fname{
 }
 
 input#email{
-	background-image:url(images/emailicon-01.png);
+	background-image:url(../images/emailicon-01.png);
 	background-repeat:no-repeat;
 	background-position:6px;
 	border:1px solid #DADADA;
@@ -1635,7 +1645,7 @@ input#email{
 }
 
 input#phone{
-	background-image:url(images/telefono-01.png);
+	background-image:url(../images/telefono-01.png);
 	background-repeat:no-repeat;
 	background-position:6px;
 	border:1px solid #DADADA;
@@ -1810,7 +1820,7 @@ form#payment button:hover {
 }
 
 input#fname{
-	background-image:url(images/persona-01.png);
+	background-image:url(../images/persona-01.png);
 	background-repeat:no-repeat;
 	background-position:6px;
 	border:1px solid #DADADA;
@@ -1821,7 +1831,7 @@ input#fname{
 }
 
 input#email{
-	background-image:url(images/emailicon-01.png);
+	background-image:url(../images/emailicon-01.png);
 	background-repeat:no-repeat;
 	background-position:6px;
 	border:1px solid #DADADA;
@@ -1832,7 +1842,7 @@ input#email{
 }
 
 input#phone{
-	background-image:url(images/telefono-01.png);
+	background-image:url(../images/telefono-01.png);
 	background-repeat:no-repeat;
 	background-position:6px;
 	border:1px solid #DADADA;
@@ -2012,7 +2022,7 @@ form#payment button:hover {
 }
 
 input#fname{
-	background-image:url(images/persona-01.png);
+	background-image:url(../images/persona-01.png);
 	background-repeat:no-repeat;
 	background-position:6px;
 	border:1px solid #DADADA;
@@ -2023,7 +2033,7 @@ input#fname{
 }
 
 input#email{
-	background-image:url(images/emailicon-01.png);
+	background-image:url(../images/emailicon-01.png);
 	background-repeat:no-repeat;
 	background-position:6px;
 	border:1px solid #DADADA;
@@ -2034,7 +2044,7 @@ input#email{
 }
 
 input#phone{
-	background-image:url(images/telefono-01.png);
+	background-image:url(../images/telefono-01.png);
 	background-repeat:no-repeat;
 	background-position:6px;
 	border:1px solid #DADADA;
@@ -2216,7 +2226,7 @@ form#payment button:hover {
 }
 
 input#fname{
-	background-image:url(images/persona-01.png);
+	background-image:url(../images/persona-01.png);
 	background-repeat:no-repeat;
 	background-position:6px;
 	border:1px solid #DADADA;
@@ -2227,7 +2237,7 @@ input#fname{
 }
 
 input#email{
-	background-image:url(images/emailicon-01.png);
+	background-image:url(../images/emailicon-01.png);
 	background-repeat:no-repeat;
 	background-position:6px;
 	border:1px solid #DADADA;
@@ -2238,7 +2248,7 @@ input#email{
 }
 
 input#phone{
-	background-image:url(images/telefono-01.png);
+	background-image:url(../images/telefono-01.png);
 	background-repeat:no-repeat;
 	background-position:6px;
 	border:1px solid #DADADA;
@@ -2428,7 +2438,7 @@ form#payment button:hover {
 }
 
 input#fname{
-	background-image:url(images/persona-01.png);
+	background-image:url(../images/persona-01.png);
 	background-repeat:no-repeat;
 	background-position:6px;
 	border:1px solid #DADADA;
@@ -2439,7 +2449,7 @@ input#fname{
 }
 
 input#email{
-	background-image:url(images/emailicon-01.png);
+	background-image:url(../images/emailicon-01.png);
 	background-repeat:no-repeat;
 	background-position:6px;
 	border:1px solid #DADADA;
@@ -2450,7 +2460,7 @@ input#email{
 }
 
 input#phone{
-	background-image:url(images/telefono-01.png);
+	background-image:url(../images/telefono-01.png);
 	background-repeat:no-repeat;
 	background-position:6px;
 	border:1px solid #DADADA;
@@ -2641,7 +2651,7 @@ form#payment button:hover {
 }
 
 input#fname{
-	background-image:url(images/persona-01.png);
+	background-image:url(../images/persona-01.png);
 	background-repeat:no-repeat;
 	background-position:6px;
 	border:1px solid #DADADA;
@@ -2652,7 +2662,7 @@ input#fname{
 }
 
 input#email{
-	background-image:url(images/emailicon-01.png);
+	background-image:url(../images/emailicon-01.png);
 	background-repeat:no-repeat;
 	background-position:6px;
 	border:1px solid #DADADA;
@@ -2663,7 +2673,7 @@ input#email{
 }
 
 input#phone{
-	background-image:url(images/telefono-01.png);
+	background-image:url(../images/telefono-01.png);
 	background-repeat:no-repeat;
 	background-position:6px;
 	border:1px solid #DADADA;
