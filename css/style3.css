@@ -57,7 +57,7 @@
 #leyendaContact{
 	float: left;
 	position: relative;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Helvetica', sans-serif;
 	font-weight: 700;
 	font-size: 20px;
 	color:#595959;
@@ -68,7 +68,7 @@
 }
 
 .textm {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Helvetica', sans-serif;
 	font-weight: 400;
 	font-size: 11px;
 	color:#595959;
