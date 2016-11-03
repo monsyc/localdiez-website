@@ -1,5 +1,4 @@
-$(function() {
-    
+$(document).ready(function() {
     $("img.lazy-p").lazyload();
 
     $("img.lazy").lazyload({
