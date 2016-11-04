@@ -13,8 +13,8 @@ function loadModalImages() {
 
 
     $("#myModal2 .image-1").css('content', 'url("images4/FamiliaCleary-2014-1.jpg")');
-    $("#myModal2 .image-2").css('content', "url('images4/FamiliaCleary-2014-2.jpg')");
-    $("#myModal2 .image-3").css('content', "url('images4/FamiliaCleary-2014-3.jpg')");
+    $("#myModal2 .image-2").css('content', 'url("images4/FamiliaCleary-2014-2.jpg")');
+    $("#myModal2 .image-3").css('content', 'url("images4/FamiliaCleary-2014-3.jpg")');
 
 
     $("#myModal .image-1").css('content', 'url("images4/FamiliaCano-2014-1.jpg")');
