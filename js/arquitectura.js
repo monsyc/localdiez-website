@@ -4,6 +4,14 @@ $( document ).ready(function() {
 
 function loadModalImages() {
 
+    $("#myModal10 .image-1").css('content', 'url("images4/CondominioMilleta-2015-1.jpg")');
+    $("#myModal10 .image-2").css('content', 'url("images4/CondominioMilleta-2015-2.jpg")');
+    $("#myModal10 .image-3").css('content', 'url("images4/CondominioMilleta-2015-3.jpg")');
+    $("#myModal10 .image-4").css('content', 'url("images4/CondominioMilleta-2015-4.jpg")');
+    $("#myModal10 .image-5").css('content', 'url("images4/CondominioMilleta-2015-5.jpg")');
+    $("#myModal10 .image-6").css('content', 'url("images4/CondominioMilleta-2015-6.jpg")');
+
+
     $("#myModal2 .image-1").css('content', 'url("images4/FamiliaCleary-2014-1.jpg")');
     $("#myModal2 .image-2").css('content', "url('images4/FamiliaCleary-2014-2.jpg')");
     $("#myModal2 .image-3").css('content', "url('images4/FamiliaCleary-2014-3.jpg')");
