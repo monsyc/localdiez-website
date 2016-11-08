@@ -4,6 +4,15 @@ $( document ).ready(function() {
     loadModalImages();
 });
 
+function loadImage(clase, imagen) {
+    var $image = $(clase);
+    var $downloadingImage = $("<img>");
+    $downloadingImage.load(function(){
+      $image.attr("src", $(this).attr("src"));  
+    });
+    $downloadingImage.attr("src", imagen);
+}
+
 function loadModalImages() {
 
     $("#myModal10 .image-1").css('content', 'url("images4/CondominioMilleta-2015-1.jpg")');
