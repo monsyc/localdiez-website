@@ -74,5 +74,36 @@ function loadModalImages() {
     $("#myModal10 .image-2").css('content', 'url("img/Showroom_Showroom_Lamosa_2011_2.jpg")'); //
     $("#myModal10 .image-3").css('content', 'url("img/Showroom_Showroom_Lamosa_2011_3,jpg")'); //
     $("#myModal10 .image-4").css('content', 'url("img/Showroom_Showroom_Lamosa_2011_4.jpg")'); //
+
+    loadImage(".myModal11","img/Showroom_Tienda_LlanoTorre_2011_p.jpg");
+    $("#myModal11 .image-1").css('content', 'url("img/Showroom_Tienda_LlanoTorre_2011_1.jpg")'); //6
+    $("#myModal11 .image-2").css('content', 'url("img/Showroom_Tienda_LlanoTorre_2011_2.jpg")'); //
+    $("#myModal11 .image-3").css('content', 'url("img/Showroom_Tienda_LlanoTorre_2011_3,jpg")'); //
+    
+    loadImage(".myModal12","img/Showroom_Exhibicion_Porcelanite_2011_p.jpg");
+    $("#myModal12 .image-1").css('content', 'url("img/Showroom_Exhibicion_Porcelanite_2011_1.jpg")'); //6
+    $("#myModal12 .image-2").css('content', 'url("img/Showroom_Exhibicion_Porcelanite_2011_2.jpg")'); //
+    $("#myModal12 .image-3").css('content', 'url("img/Showroom_Exhibicion_Porcelanite_2011_3,jpg")'); //
+    
+    loadImage(".myModal13","img/Showroom_Exhibicion_Arko_2010_p.jpg");
+    $("#myModal13 .image-1").css('content', 'url("img/Showroom_Exhibicion_Arko_2010_1.jpg")'); //6
+    $("#myModal13 .image-2").css('content', 'url("img/Showroom_Exhibicion_Arko_2010_2.jpg")'); //
+    $("#myModal13 .image-3").css('content', 'url("img/Showroom_Exhibicion_Arko_2010_3,jpg")'); //
+    
+    loadImage(".myModal14","img/Showroom_Exhibicion_Ceramat_2010_p.jpg");
+    $("#myModal14 .image-1").css('content', 'url("img/Showroom_Exhibicion_Ceramat_2010_1.jpg")'); //6
+    $("#myModal14 .image-2").css('content', 'url("img/Showroom_Exhibicion_Ceramat_2010_2.jpg")'); //
+    $("#myModal14 .image-3").css('content', 'url("img/Showroom_Exhibicion_Ceramat_2010_3,jpg")'); //
+    
+    loadImage(".myModal15","img/Showroom_Exhibicion_Firenze_2008_p.jpg");
+    $("#myModal15 .image-1").css('content', 'url("img/Showroom_Exhibicion_Firenze_2008_1.jpg")'); //6
+    $("#myModal15 .image-2").css('content', 'url("img/Showroom_Exhibicion_Firenze_2008_2.jpg")'); //
+    $("#myModal15 .image-3").css('content', 'url("img/Showroom_Exhibicion_Firenze_2008_3,jpg")'); //
+    $("#myModal15 .image-4").css('content', 'url("img/Showroom_Exhibicion_Firenze_2008_4,jpg")'); //
+    
+    loadImage(".myModal16","img/Showroom_Tienda_Avon_2007_p.jpg");
+    $("#myModal16 .image-1").css('content', 'url("img/Showroom_Tienda_Avon_2007_1.jpg")'); //6
+    $("#myModal16 .image-2").css('content', 'url("img/Showroom_Tienda_Avon_2007_2.jpg")'); //
+    $("#myModal16 .image-3").css('content', 'url("img/Showroom_Tienda_Avon_2007_3,jpg")'); //
     
 }
