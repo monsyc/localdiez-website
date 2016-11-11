@@ -1,7 +1,7 @@
 /* Load Images to Modal */
 
 $( document ).ready(function() {
-    loadModalImages();
+    msieversion();
 });
 
 function loadImage(clase, imagen) {
@@ -11,6 +11,81 @@ function loadImage(clase, imagen) {
       $image.attr("src", $(this).attr("src"));  
     });
     $downloadingImage.attr("src", imagen);
+}
+
+function msieversion() {
+
+    var ua = window.navigator.userAgent;
+    var msie = ua.indexOf("MSIE ");
+
+    if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./))  // If Internet Explorer, return version number
+    {
+        loadImagesForIE();
+    }
+    else  // If another browser, return 0
+    {
+        loadModalImages();
+    }
+
+    return false;
+}
+
+function loadImagesForIE() {
+
+    loadImage(".myModal2","img/Display_MuroTecnico_Vitromex_2014_p.jpg");
+    loadImage(".myModal","img/Display_ExhibidorLibro_Arko_p.jpg");
+    loadImage(".myModal3","img/Display_ExhibidorLibro_Artemis_2014_p.jpg");
+    loadImage(".myModal4","img/Display_ExhibidorLibro_Vitromex_2014_p.jpg");
+    loadImage(".myModal6","img/Display_Cuneros_Vitromex_2014_p.jpg");
+    loadImage(".myModal5","img/Display_Cuneros_Gante_2014_p.jpg");
+    loadImage(".myModal8","img/Display_Exhibidor_Joyou_2012_p.jpg");
+    loadImage(".myModal9","img/Display_ExhibidorLibro_Gante_2012_p.jpg");
+    loadImage(".myModal10","img/Display_ExhibidoresSanitarios_Lamosa_2012_p.jpg");
+    loadImage(".myModal11","img/Display_ExhibidoresSanitarios_Ambiance_2010_p.jpg");
+    loadImage(".myModal12","img/Display_ExhibidoresSanitarios_Lamosa_2008_p.jpg");
+    
+    
+    loadImage("#myModal2 .image-1","img/Display_MuroTecnico_Vitromex_2014_1.jpg"); //6
+    loadImage("#myModal2 .image-2","img/Display_MuroTecnico_Vitromex_2014_2.jpg"); //
+    loadImage("#myModal2 .image-3","img/Display_MuroTecnico_Vitromex_2014_3.jpg"); //
+    loadImage("#myModal2 .image-4","img/Display_MuroTecnico_Vitromex_2014_4.jpg"); //
+    loadImage("#myModal2 .image-5","img/Display_MuroTecnico_Vitromex_2014_5.jpg"); //
+
+    loadImage("#myModal .image-1","img/Display_ExhibidorLibro_Arko_1.jpg"); //6
+    loadImage("#myModal .image-2","img/Display_ExhibidorLibro_Arko_2.jpg"); //
+
+    loadImage("#myModal3 .image-1","img/Display_ExhibidorLibro_Artemis_2014_1.jpg"); //6
+    loadImage("#myModal3 .image-2","img/Display_ExhibidorLibro_Artemis_2014_2.jpg"); //
+
+    loadImage("#myModal4 .image-1","img/Display_ExhibidorLibro_Vitromex_2014_1.jpg"); //6
+    loadImage("#myModal4 .image-2","img/Display_ExhibidorLibro_Vitromex_2014_2.jpg"); //
+
+    loadImage("#myModal6 .image-1","img/Display_Cuneros_Vitromex_2014_1.jpg"); //6
+    loadImage("#myModal6 .image-2","img/Display_Cuneros_Vitromex_2014_2.jpg"); //
+    loadImage("#myModal6 .image-3","img/Display_Cuneros_Vitromex_2014_3.jpg"); //
+    loadImage("#myModal6 .image-4","img/Display_Cuneros_Vitromex_2014_4.jpg"); //
+
+    loadImage("#myModal5 .image-1","img/Display_Cuneros_Gante_2014_1.jpg"); //6
+    loadImage("#myModal5 .image-2","img/Display_Cuneros_Gante_2014_2.jpg"); //
+  
+    loadImage("#myModal8 .image-1","img/Display_Exhibidor_Joyou_2012_1.jpg"); //6
+    loadImage("#myModal8 .image-2","img/Display_Exhibidor_Joyou_2012_2.jpg"); //
+    
+    loadImage("#myModal9 .image-1","img/Display_ExhibidorLibro_Gante_2012_1.jpg"); //6
+    loadImage("#myModal9 .image-2","img/Display_ExhibidorLibro_Gante_2012_2.jpg"); //
+
+    loadImage("#myModal10 .image-1","img/Display_ExhibidoresSanitarios_Lamosa_2012_1.jpg"); //6
+    loadImage("#myModal10 .image-2","img/Display_ExhibidoresSanitarios_Lamosa_2012_2.jpg"); //
+    loadImage("#myModal10 .image-2","img/Display_ExhibidoresSanitarios_Lamosa_2012_3.jpg"); //
+    loadImage("#myModal10 .image-2","img/Display_ExhibidoresSanitarios_Lamosa_2012_4.jpg"); //
+   
+    loadImage("#myModal11 .image-1","img/Display_ExhibidoresSanitarios_Ambiance_2010_1.jpg"); //6
+    loadImage("#myModal11 .image-2","img/Display_ExhibidoresSanitarios_Ambiance_2010_2.jpg"); //
+    loadImage("#myModal11 .image-2","img/Display_ExhibidoresSanitarios_Ambiance_2010_3.jpg"); //
+    
+    loadImage("#myModal12 .image-1","img/Display_ExhibidoresSanitarios_Lamosa_2008_1.jpg"); //6
+    loadImage("#myModal12 .image-2","img/Display_ExhibidoresSanitarios_Lamosa_2008_2.jpg"); //
+    loadImage("#myModal12 .image-2","img/Display_ExhibidoresSanitarios_Lamosa_2008_3.jpg"); //
 }
 
 function loadModalImages() {
