@@ -49,4 +49,30 @@ function loadModalImages() {
     $("#myModal6 .image-3").css('content', 'url("img/Showroom_Exhibicion_Dune_2013_3.jpg")'); //
     $("#myModal6 .image-4").css('content', 'url("img/Showroom_Exhibicion_Dune_2013_4.jpg")'); //
 
+    loadImage(".myModal7","img/Showroom_Showroom_Lamosa_2012_p.jpg");
+    $("#myModal7 .image-1").css('content', 'url("img/Showroom_Showroom_Lamosa_2012_1.jpg")'); //6
+    $("#myModal7 .image-2").css('content', 'url("img/Showroom_Showroom_Lamosa_2012_2.jpg")'); //
+    $("#myModal7 .image-3").css('content', 'url("img/Showroom_Showroom_Lamosa_2012_3.jpg")'); //
+    $("#myModal7 .image-4").css('content', 'url("img/Showroom_Showroom_Lamosa_2012_4.jpg")'); //
+    $("#myModal7 .image-5").css('content', 'url("img/Showroom_Showroom_Lamosa_2012_5.jpg")'); //
+    $("#myModal7 .image-6").css('content', 'url("img/Showroom_Showroom_Lamosa_2012_6.jpg")'); //
+
+    loadImage(".myModal8","img/Showroom_Tienda_Powercat_2012_p.jpg");
+    $("#myModal8 .image-1").css('content', 'url("img/Showroom_Tienda_Powercat_2012_1.jpg")'); //6
+    $("#myModal8 .image-2").css('content', 'url("img/Showroom_Tienda_Powercat_2012_2.jpg")'); //
+    $("#myModal8 .image-3").css('content', 'url("img/Showroom_Tienda_Powercat_2012_3.jpg")'); //
+    $("#myModal8 .image-4").css('content', 'url("img/Showroom_Tienda_Powercat_2012_4.jpg")'); //
+    
+    loadImage(".myModal9","img/Showroom_Tienda_Gilsa_2012_p.jpg");
+    $("#myModal9 .image-1").css('content', 'url("img/Showroom_Tienda_Gilsa_2012_1.jpg")'); //6
+    $("#myModal9 .image-2").css('content', 'url("img/Showroom_Tienda_Gilsa_2012_2.jpg")'); //
+    $("#myModal9 .image-3").css('content', 'url("img/Showroom_Tienda_Gilsa_2012_3.jpg")'); //
+    $("#myModal9 .image-4").css('content', 'url("img/Showroom_Tienda_Gilsa_2012_4.jpg")'); //
+    
+    loadImage(".myModal10","img/Showroom_Showroom_Lamosa_2011_p.jpg");
+    $("#myModal10 .image-1").css('content', 'url("img/Showroom_Showroom_Lamosa_2011_1.jpg")'); //6
+    $("#myModal10 .image-2").css('content', 'url("img/Showroom_Showroom_Lamosa_2011_2.jpg")'); //
+    $("#myModal10 .image-3").css('content', 'url("img/Showroom_Showroom_Lamosa_2011_3,jpg")'); //
+    $("#myModal10 .image-4").css('content', 'url("img/Showroom_Showroom_Lamosa_2011_4.jpg")'); //
+    
 }
