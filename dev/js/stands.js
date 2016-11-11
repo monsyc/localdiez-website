@@ -1,7 +1,7 @@
 /* Load Images to Modal */
 
 $( document ).ready(function() {
-    loadModalImages();
+    msieversion();
 });
 
 function loadImage(clase, imagen) {
@@ -11,6 +11,23 @@ function loadImage(clase, imagen) {
       $image.attr("src", $(this).attr("src"));  
     });
     $downloadingImage.attr("src", imagen);
+}
+
+function msieversion() {
+
+    var ua = window.navigator.userAgent;
+    var msie = ua.indexOf("MSIE ");
+
+    if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./))  // If Internet Explorer, return version number
+    {
+        alert("internet Explorer");
+    }
+    else  // If another browser, return 0
+    {
+        loadModalImages();
+    }
+
+    return false;
 }
 
 function loadModalImages() {
