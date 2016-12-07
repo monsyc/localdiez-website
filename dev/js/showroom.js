@@ -32,7 +32,7 @@ function msieversion() {
 
 function loadImagesForIE() {
 
-    loadImage(".myModal2","img/Stands_Firenze-Cihac-2015-p.jpg");
+    loadImage(".myModal2","img/Showroom_Showroom_Daltile_2014_p.jpg");
     loadImage(".myModal","img/Showroom_Corner_Urrea_2014_p.jpg");
     loadImage(".myModal3","img/Showroom_Tienda_PajaroCarpintero_2014_p.jpg");
     loadImage(".myModal4","img/Showroom_Exhibicion_PorcelanicosLamosa_2014_p.jpg");
@@ -127,7 +127,7 @@ function loadImagesForIE() {
 
 function loadModalImages() {
 
-    loadImage(".myModal2","img/Stands_Firenze-Cihac-2015-p.jpg");
+    loadImage(".myModal2","img/Showroom_Showroom_Daltile_2014_p.jpg");
     $("#myModal2 .image-1").css('content', 'url("img/Showroom_Showroom_Daltile_2014_1.jpg")'); //6
     $("#myModal2 .image-2").css('content', 'url("img/Showroom_Showroom_Daltile_2014_2.jpg")'); //
     $("#myModal2 .image-3").css('content', 'url("img/Showroom_Showroom_Daltile_2014_3.jpg")'); //

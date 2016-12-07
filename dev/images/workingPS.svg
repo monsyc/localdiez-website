@@ -1,1 +1,76 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 275.6 469.9"><defs><style>.cls-1,.cls-2{fill:none;stroke-linecap:round;stroke-linejoin:round;}.cls-1{stroke:#2dacc4;stroke-width:1.66px;}.cls-2{stroke:#2b2b2b;stroke-width:1.42px;}.cls-3{font-size:10.99px;fill:#2dacc4;font-family:Helvetica;}.cls-4{white-space:pre;}</style></defs><title>workingPS</title><line class="cls-1" x1="171.6" y1="288.8" x2="186.7" y2="288.8"/><polyline class="cls-1" points="183.2 280.5 193.3 288.8 183.2 297.1"/><line class="cls-1" x1="74.7" y1="288.8" x2="89.7" y2="288.8"/><polyline class="cls-1" points="86.3 280.5 96.4 288.8 86.3 297.1"/><line class="cls-1" x1="74.7" y1="155.6" x2="89.7" y2="155.6"/><polyline class="cls-1" points="86.3 147.3 96.4 155.6 86.3 163.9"/><line class="cls-1" x1="133.1" y1="91.1" x2="133.1" y2="106.1"/><polyline class="cls-1" points="141.4 102.7 133.1 112.8 124.8 102.7"/><line class="cls-1" x1="30.2" y1="222.9" x2="30.2" y2="238"/><polyline class="cls-1" points="38.5 234.5 30.2 244.7 21.9 234.5"/><line class="cls-1" x1="240.5" y1="345.1" x2="240.5" y2="360.1"/><polyline class="cls-1" points="248.8 356.7 240.5 366.8 232.2 356.7"/><path class="cls-2" d="M154.1,33.7a1.2,1.2,0,0,1-.4-2.1,16.3,16.3,0,0,0,7-13.6c0-8.8-6.6-16-14.7-16s-14.7,7.1-14.7,16a16.3,16.3,0,0,0,6.8,13.4,1.3,1.3,0,0,1-.5,2.4c-9.3,1.7-16,6.1-16,11.3v9.5a2.5,2.5,0,0,0,2.5,2.5h44a2.4,2.4,0,0,0,2.4-2.4V45C170.4,39.8,163.6,35.3,154.1,33.7Z" transform="translate(-15.9 -1.2)"/><text class="cls-3" transform="translate(99.4 78.9)">INTE<tspan x="25" y="0">R</tspan><tspan x="32.8" y="0">VIEW</tspan></text><path class="cls-2" d="M166.8,185.8H125.9a1.1,1.1,0,0,1-1.1-1.1V149.5a2.8,2.8,0,0,1,.6-1.8l15.7-19.2a2,2,0,0,1,1.6-.7h24.1a1.1,1.1,0,0,1,1.1,1.1v55.7A1.1,1.1,0,0,1,166.8,185.8Z" transform="translate(-15.9 -1.2)"/><path class="cls-2" d="M124.8,148.7l14.1-3.7c5.3-1.3,2.2-16.5,2.2-16.5" transform="translate(-15.9 -1.2)"/><line class="cls-2" x1="148.6" y1="135.5" x2="129.1" y2="135.5"/><line class="cls-2" x1="148.6" y1="142.2" x2="129.1" y2="142.2"/><line class="cls-2" x1="148.6" y1="148.9" x2="126.1" y2="148.9"/><line class="cls-2" x1="148.6" y1="155.6" x2="113" y2="155.6"/><line class="cls-2" x1="148.6" y1="162.3" x2="113" y2="162.3"/><line class="cls-2" x1="148.6" y1="169" x2="113" y2="169"/><line class="cls-2" x1="148.6" y1="175.7" x2="113" y2="175.7"/><text class="cls-3" transform="translate(113.5 208.2)">BRIEF</text><circle class="cls-2" cx="30.1" cy="155.6" r="26.6"/><path class="cls-2" d="M38.6,167h9.5a5.1,5.1,0,1,0,0-10.1H43.7a5.1,5.1,0,1,1,0-10.2h8.9" transform="translate(-15.9 -1.2)"/><line class="cls-2" x1="30.1" y1="140.9" x2="30.1" y2="145.4"/><line class="cls-2" x1="30.1" y1="165.8" x2="30.1" y2="170.2"/><text class="cls-3" transform="translate(8.6 208.2)">BUDGE<tspan x="39.1" y="0">T</tspan></text><rect class="cls-2" x="17.4" y="283" width="47.5" height="8.89" transform="translate(-207.1 112) rotate(-45)"/><path class="cls-2" d="M56.3,262.4h8.9a1.8,1.8,0,0,1,1.8,1.8v5.3a1.7,1.7,0,0,1-1.7,1.7h-9a0,0,0,0,1,0,0v-8.9a0,0,0,0,1,0,0Z" transform="translate(-186.5 120.6) rotate(-45)"/><polyline class="cls-2" points="5.3 299.9 0.7 310.8 11.6 306.1"/><line class="cls-2" x1="48.9" y1="274.8" x2="59.4" y2="274.8"/><line class="cls-2" x1="38.1" y1="283.8" x2="59.4" y2="283.8"/><line class="cls-2" x1="30.2" y1="292.8" x2="59.4" y2="292.8"/><line class="cls-2" x1="22" y1="301.8" x2="59.4" y2="301.8"/><line class="cls-2" x1="12.8" y1="310.8" x2="59.4" y2="310.8"/><text class="cls-3" transform="translate(9 335.7)">DESIGN</text><path class="cls-2" d="M166.8,313.3H125.9a1.1,1.1,0,0,1-1.1-1.1V277.1a2.8,2.8,0,0,1,.6-1.8l15.7-19.2a2,2,0,0,1,1.6-.7h24.1a1.1,1.1,0,0,1,1.1,1.1v55.7A1.1,1.1,0,0,1,166.8,313.3Z" transform="translate(-15.9 -1.2)"/><path class="cls-2" d="M124.8,276.3l14.1-3.7c5.3-1.3,2.2-16.5,2.2-16.5" transform="translate(-15.9 -1.2)"/><rect class="cls-2" x="121.3" y="278.7" width="20.2" height="20.24"/><polyline class="cls-2" points="123.8 288.1 127.7 293.4 138.8 284.3"/><text class="cls-3" transform="translate(84.3 335.7)">FINA<tspan x="25" y="0">L</tspan><tspan class="cls-4" x="30.8" y="0"> PROPOSA</tspan><tspan x="88.2" y="0">L</tspan></text><path class="cls-2" d="M282.5,275.8l-1.6-20.5h-10l-2,20.5h-9.8l0.2-7.2-18.5,7.2,0.2-7.2-17.8,7.2v37.9H287V275.8h-4.5Zm-38,11.4H233.2v-4.8h11.3v4.8Zm16.6,0H249.7v-4.8H261v4.8Zm16.6,0H266.3v-4.8h11.3v4.8Z" transform="translate(-15.9 -1.2)"/><text class="cls-3" transform="translate(201.7 335.5)">PRODUCTION</text><polygon class="cls-2" points="266.1 403.2 252.9 380.4 252.7 380.4 249.8 401.7 230.5 401.7 226.5 380.6 226.5 380.6 212.4 403 226.6 426 226.6 443.6 252.4 443.6 252.4 426 266.1 403.2"/><text class="cls-3" transform="translate(210.4 464.6)">ASSEMB<tspan x="45.8" y="0">L</tspan><tspan x="51.1" y="0">Y</tspan></text></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 275.6 469.9" style="enable-background:new 0 0 275.6 469.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#2DACC4;stroke-width:1.66;stroke-linecap:round;stroke-linejoin:round;}
+	.st1{fill:none;stroke:#2B2B2B;stroke-width:1.42;stroke-linecap:round;stroke-linejoin:round;}
+	.st2{fill:#2DACC4;}
+	.st3{font-family:'Helvetica';}
+	.st4{font-size:10.99px;}
+</style>
+<title>workingPS</title>
+<line class="st0" x1="171.6" y1="288.8" x2="186.7" y2="288.8"/>
+<polyline class="st0" points="183.2,280.5 193.3,288.8 183.2,297.1 "/>
+<line class="st0" x1="74.7" y1="288.8" x2="89.7" y2="288.8"/>
+<polyline class="st0" points="86.3,280.5 96.4,288.8 86.3,297.1 "/>
+<line class="st0" x1="96.4" y1="155.6" x2="81.4" y2="155.6"/>
+<polyline class="st0" points="84.8,163.9 74.7,155.6 84.8,147.3 "/>
+<line class="st0" x1="133.1" y1="91.1" x2="133.1" y2="106.1"/>
+<polyline class="st0" points="141.4,102.7 133.1,112.8 124.8,102.7 "/>
+<line class="st0" x1="30.2" y1="222.9" x2="30.2" y2="238"/>
+<polyline class="st0" points="38.5,234.5 30.2,244.7 21.9,234.5 "/>
+<line class="st0" x1="240.5" y1="345.1" x2="240.5" y2="360.1"/>
+<polyline class="st0" points="248.8,356.7 240.5,366.8 232.2,356.7 "/>
+<path class="st1" d="M138.2,32.5c-0.6-0.2-1-0.9-0.8-1.5c0.1-0.2,0.2-0.5,0.4-0.6c4.4-3.1,7.1-8.2,7-13.6c0-8.8-6.6-16-14.7-16
+	s-14.7,7.1-14.7,16c-0.1,5.3,2.5,10.3,6.8,13.4c0.6,0.4,0.8,1.2,0.4,1.8c-0.2,0.3-0.5,0.6-0.9,0.6c-9.3,1.7-16,6.1-16,11.3v9.5
+	c0,1.4,1.1,2.5,2.5,2.5h44c1.3,0,2.4-1.1,2.4-2.4v-9.7C154.5,38.6,147.7,34.1,138.2,32.5z"/>
+<text transform="matrix(1 0 0 1 99.4 78.9)" class="st2 st3 st4">INTE</text>
+<text transform="matrix(1 0 0 1 124.4 78.9)" class="st2 st3 st4">R</text>
+<text transform="matrix(1 0 0 1 132.2 78.9)" class="st2 st3 st4">VIEW</text>
+<path class="st1" d="M150.9,184.6H110c-0.6,0-1.1-0.5-1.1-1.1l0,0v-35.2c0-0.7,0.2-1.3,0.6-1.8l15.7-19.2c0.4-0.5,1-0.7,1.6-0.7
+	h24.1c0.6,0,1.1,0.5,1.1,1.1v0v55.7c0.1,0.6-0.4,1.1-1,1.2C151,184.6,150.9,184.6,150.9,184.6z"/>
+<path class="st1" d="M108.9,147.5l14.1-3.7c5.3-1.3,2.2-16.5,2.2-16.5"/>
+<line class="st1" x1="148.6" y1="135.5" x2="129.1" y2="135.5"/>
+<line class="st1" x1="148.6" y1="142.2" x2="129.1" y2="142.2"/>
+<line class="st1" x1="148.6" y1="148.9" x2="126.1" y2="148.9"/>
+<line class="st1" x1="148.6" y1="155.6" x2="113" y2="155.6"/>
+<line class="st1" x1="148.6" y1="162.3" x2="113" y2="162.3"/>
+<line class="st1" x1="148.6" y1="169" x2="113" y2="169"/>
+<line class="st1" x1="148.6" y1="175.7" x2="113" y2="175.7"/>
+<text transform="matrix(1 0 0 1 113.5 208.2)" class="st2 st3 st4">BRIEF</text>
+<circle class="st1" cx="30.1" cy="155.6" r="26.6"/>
+<path class="st1" d="M22.7,165.8h9.5c2.8,0.4,5.4-1.5,5.8-4.3c0.4-2.8-1.5-5.4-4.3-5.8c-0.5-0.1-1-0.1-1.4,0h-4.4
+	c-2.8,0-5.1-2.3-5.1-5.1c0-2.8,2.3-5.1,5.1-5.1c0,0,0,0,0,0h8.9"/>
+<line class="st1" x1="30.1" y1="140.9" x2="30.1" y2="145.4"/>
+<line class="st1" x1="30.1" y1="165.8" x2="30.1" y2="170.2"/>
+<text transform="matrix(1 0 0 1 8.6 208.2)" class="st2 st3 st4">BUDGE</text>
+<text transform="matrix(1 0 0 1 47.7 208.2)" class="st2 st3 st4">T</text>
+<rect x="1.5" y="281.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -194.9474 101.6691)" class="st1" width="47.5" height="8.9"/>
+<path class="st1" d="M38.9,266.3l6.3-6.3c0.7-0.7,1.8-0.7,2.5,0l3.7,3.7c0.7,0.7,0.7,1.7,0,2.4h0l-6.4,6.4l0,0L38.9,266.3
+	L38.9,266.3L38.9,266.3z"/>
+<polyline class="st1" points="5.3,299.9 0.7,310.8 11.6,306.1 "/>
+<line class="st1" x1="48.9" y1="274.8" x2="59.4" y2="274.8"/>
+<line class="st1" x1="38.1" y1="283.8" x2="59.4" y2="283.8"/>
+<line class="st1" x1="30.2" y1="292.8" x2="59.4" y2="292.8"/>
+<line class="st1" x1="22" y1="301.8" x2="59.4" y2="301.8"/>
+<line class="st1" x1="12.8" y1="310.8" x2="59.4" y2="310.8"/>
+<text transform="matrix(1 0 0 1 9 335.7)" class="st2 st3 st4">DESIGN</text>
+<path class="st1" d="M150.9,312.1H110c-0.6,0-1.1-0.5-1.1-1.1l0,0v-35.1c0-0.7,0.2-1.3,0.6-1.8l15.7-19.2c0.4-0.5,1-0.7,1.6-0.7
+	h24.1c0.6,0,1.1,0.5,1.1,1.1V311C152,311.6,151.5,312.1,150.9,312.1z"/>
+<path class="st1" d="M108.9,275.1l14.1-3.7c5.3-1.3,2.2-16.5,2.2-16.5"/>
+<rect x="121.3" y="278.7" class="st1" width="20.2" height="20.2"/>
+<polyline class="st1" points="123.8,288.1 127.7,293.4 138.8,284.3 "/>
+<text transform="matrix(1 0 0 1 84.3 335.7)" class="st2 st3 st4">FINA</text>
+<text transform="matrix(1 0 0 1 109.3 335.7)" class="st2 st3 st4">L</text>
+<text transform="matrix(1 0 0 1 115.1 335.7)" class="st2 st3 st4"> PROPOSA</text>
+<text transform="matrix(1 0 0 1 172.5 335.7)" class="st2 st3 st4">L</text>
+<path class="st1" d="M266.6,274.6l-1.6-20.5h-10l-2,20.5h-9.8l0.2-7.2l-18.5,7.2l0.2-7.2l-17.8,7.2v37.9h63.8v-37.9H266.6z
+	 M228.6,286h-11.3v-4.8h11.3V286z M245.2,286h-11.4v-4.8h11.3v4.8H245.2z M261.8,286h-11.4v-4.8h11.3v4.8H261.8z"/>
+<text transform="matrix(1 0 0 1 201.7 335.5)" class="st2 st3 st4">PRODUCTION</text>
+<polygon class="st1" points="266.1,403.2 252.9,380.4 252.7,380.4 249.8,401.7 230.5,401.7 226.5,380.6 226.5,380.6 212.4,403 
+	226.6,426 226.6,443.6 252.4,443.6 252.4,426 "/>
+<text transform="matrix(1 0 0 1 210.4 464.6)" class="st2 st3 st4">ASSEMB</text>
+<text transform="matrix(1 0 0 1 256.2 464.6)" class="st2 st3 st4">L</text>
+<text transform="matrix(1 0 0 1 261.5 464.6)" class="st2 st3 st4">Y</text>
+</svg>

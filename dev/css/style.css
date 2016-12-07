@@ -1,4 +1,43 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
 
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+  font-size: 36px;
+
+}
+[class*="entypo-"]:hover {
+  color: #2CB0C4;
+}
+
+.icon-social{
+  color: #2B2B2B;
+}
+
+
+.groupfoto {
+  padding-top: 20px;
+}
+
+.groupfotos{
+  padding-top: 20px;
+}
+
+#quienessomos{
+  padding-top:10px !important;
+}
+
+@media screen and (min-width: 480px) {
+  .groupfotos{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .groupfoto{
+    display: none;
+  }
+}
 
  @media screen and (min-width: 300px) and (max-width: 649px) {
   html, body {
