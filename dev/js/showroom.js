@@ -32,6 +32,13 @@ function msieversion() {
 
 function loadImagesForIE() {
 
+    loadImage(".myModal17","img/Showroom_Porcelanite2015_p.jpg");
+    loadImage(".myModal18","img/Showroom_Porcelanite2015_2_p.jpg");
+    loadImage(".myModal19","img/Showroom_Lamosa2016_p.jpg");
+    loadImage(".myModal20","img/Showroom_Porcelanite2016_p.jpg");
+    loadImage(".myModal21","img/Showroom_Porcelanato2016_p.jpg");
+    loadImage(".myModal22","img/Showroom_Firenze2016_p.jpg");
+
     loadImage(".myModal2","img/Showroom_Showroom_Daltile_2014_p.jpg");
     loadImage(".myModal","img/Showroom_Corner_Urrea_2014_p.jpg");
     loadImage(".myModal3","img/Showroom_Tienda_PajaroCarpintero_2014_p.jpg");
@@ -48,6 +55,33 @@ function loadImagesForIE() {
     loadImage(".myModal14","img/Showroom_Exhibicion_Ceramat_2010_p.jpg");
     loadImage(".myModal15","img/Showroom_Exhibicion_Firenze_2008_p.jpg");
     loadImage(".myModal16","img/Showroom_Tienda_Avon_2007_p.jpg");
+
+    loadImage("#myModal17 .image-1","img/Showroom_Porcelanite2015_1.jpg"); //4
+    loadImage("#myModal17 .image-2","img/Showroom_Porcelanite2015_2.jpg");
+    loadImage("#myModal17 .image-3","img/Showroom_Porcelanite2015_3.jpg");
+    loadImage("#myModal17 .image-4","img/Showroom_Porcelanite2015_4.jpg");
+
+    loadImage("#myModal18 .image-1","img/Showroom_Porcelanite2015_2_1.jpg"); //4
+    loadImage("#myModal18 .image-2","img/Showroom_Porcelanite2015_2_2.jpg");
+    loadImage("#myModal18 .image-3","img/Showroom_Porcelanite2015_2_3.jpg");
+    loadImage("#myModal18 .image-4","img/Showroom_Porcelanite2015_2_4.jpg");
+
+    loadImage("#myModal19 .image-1","img/Showroom_Lamosa2016_1.jpg"); //2
+    loadImage("#myModal19 .image-2","img/Showroom_Lamosa2016_2.jpg");
+
+    loadImage("#myModal20 .image-1","img/Showroom_Porcelanite2016_1.jpg"); //2
+    loadImage("#myModal20 .image-2","img/Showroom_Porcelanite2016_2.jpg");
+
+    loadImage("#myModal21 .image-1","img/Showroom_Porcelanato2016_1.jpg"); //3
+    loadImage("#myModal21 .image-2","img/Showroom_Porcelanato2016_2.jpg");
+    loadImage("#myModal21 .image-3","img/Showroom_Porcelanato2016_3.jpg");
+
+    loadImage("#myModal22 .image-1","img/Showroom_Firenze2016_1.jpg"); //6
+    loadImage("#myModal22 .image-2","img/Showroom_Firenze2016_2.jpg");
+    loadImage("#myModal22 .image-3","img/Showroom_Firenze2016_3.jpg");
+    loadImage("#myModal22 .image-4","img/Showroom_Firenze2016_4.jpg");
+    loadImage("#myModal22 .image-5","img/Showroom_Firenze2016_5.jpg");
+    loadImage("#myModal22 .image-6","img/Showroom_Firenze2016_6.jpg");
 
     loadImage("#myModal2 .image-1","img/Showroom_Showroom_Daltile_2014_1.jpg"); //6
     loadImage("#myModal2 .image-2","img/Showroom_Showroom_Daltile_2014_2.jpg"); //
@@ -126,6 +160,40 @@ function loadImagesForIE() {
 }
 
 function loadModalImages() {
+
+    loadImage(".myModal17","img/Showroom_Porcelanite2015_p.jpg");
+    $("#myModal17 .image-1").css('content', 'url("img/Showroom_Porcelanite2015_1.jpg")'); //4
+    $("#myModal17 .image-2").css('content', 'url("img/Showroom_Porcelanite2015_2.jpg")');
+    $("#myModal17 .image-3").css('content', 'url("img/Showroom_Porcelanite2015_3.jpg")');
+    $("#myModal17 .image-4").css('content', 'url("img/Showroom_Porcelanite2015_4.jpg")');
+
+    loadImage(".myModal18","img/Showroom_Porcelanite2015_2_p.jpg");
+    $("#myModal18 .image-1").css('content', 'url("img/Showroom_Porcelanite2015_2_1.jpg")'); //4
+    $("#myModal18 .image-2").css('content', 'url("img/Showroom_Porcelanite2015_2_2.jpg")');
+    $("#myModal18 .image-3").css('content', 'url("img/Showroom_Porcelanite2015_2_3.jpg")');
+    $("#myModal18 .image-4").css('content', 'url("img/Showroom_Porcelanite2015_2_4.jpg")');
+
+    loadImage(".myModal19","img/Showroom_Lamosa2016_p.jpg");
+    $("#myModal19 .image-1").css('content', 'url("img/Showroom_Lamosa2016_1.jpg")'); //2
+    $("#myModal19 .image-2").css('content', 'url("img/Showroom_Lamosa2016_2.jpg")');
+
+    loadImage(".myModal20","img/Showroom_Porcelanite2016_p.jpg");
+    $("#myModal20 .image-1").css('content', 'url("img/Showroom_Porcelanite2016_1.jpg")'); //2
+    $("#myModal20 .image-2").css('content', 'url("img/Showroom_Porcelanite2016_2.jpg")');
+
+    loadImage(".myModal21","img/Showroom_Porcelanato2016_p.jpg");
+    $("#myModal21 .image-1").css('content', 'url("img/Showroom_Porcelanato2016_1.jpg")'); //3
+    $("#myModal21 .image-2").css('content', 'url("img/Showroom_Porcelanato2016_2.jpg")');
+    $("#myModal21 .image-3").css('content', 'url("img/Showroom_Porcelanato2016_3.jpg")');
+
+    loadImage(".myModal22","img/Showroom_Firenze2016_p.jpg");
+    $("#myModal22 .image-1").css('content', 'url("img/Showroom_Firenze2016_1.jpg")'); //6
+    $("#myModal22 .image-2").css('content', 'url("img/Showroom_Firenze2016_2.jpg")');
+    $("#myModal22 .image-3").css('content', 'url("img/Showroom_Firenze2016_3.jpg")');
+    $("#myModal22 .image-4").css('content', 'url("img/Showroom_Firenze2016_4.jpg")');
+    $("#myModal22 .image-5").css('content', 'url("img/Showroom_Firenze2016_5.jpg")');
+    $("#myModal22 .image-6").css('content', 'url("img/Showroom_Firenze2016_6.jpg")');
+
 
     loadImage(".myModal2","img/Showroom_Showroom_Daltile_2014_p.jpg");
     $("#myModal2 .image-1").css('content', 'url("img/Showroom_Showroom_Daltile_2014_1.jpg")'); //6
