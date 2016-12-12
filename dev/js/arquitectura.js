@@ -32,6 +32,7 @@ function msieversion() {
 
 function loadImagesForIE() {
 
+    loadImage(".myModal11","img/Arq_CasaDeCampo_p.jpg");
     loadImage(".myModal10","img/Arq_CondominioMilleta-2015-p.jpg");
     loadImage(".myModal2","img/Arq_FamiliaCleary-2014-p.jpg");
     loadImage(".myModal","img/Arq_FamiliaCano-2014-p.jpg");
@@ -42,7 +43,11 @@ function loadImagesForIE() {
     loadImage(".myModal7","img/Arq_SanJuan-2008-p.jpg");
     loadImage(".myModal8","img/Arq_CentroComercial-2006-p.jpg");
 
-    
+    loadImage("#myModal11 .image-1","img/Arq_CasaDeCampo_1.jpg");
+    loadImage("#myModal11 .image-2","img/Arq_CasaDeCampo_2.jpg");
+    loadImage("#myModal11 .image-3","img/Arq_CasaDeCampo_3.jpg");
+    loadImage("#myModal11 .image-4","img/Arq_CasaDeCampo_4.jpg");
+
     loadImage("#myModal10 .image-1","img/Arq_CondominioMilleta-2015-1.jpg");
     loadImage("#myModal10 .image-2","img/Arq_CondominioMilleta-2015-2.jpg");
     loadImage("#myModal10 .image-3","img/Arq_CondominioMilleta-2015-3.jpg");
@@ -94,6 +99,12 @@ function loadImagesForIE() {
 }
 
 function loadModalImages() {
+
+    loadImage(".myModal11","img/Arq_CasaDeCampo_p.jpg");
+    $("#myModal11 .image-1").css('content', 'url("img/Arq_CasaDeCampo_1.jpg")');
+    $("#myModal11 .image-2").css('content', 'url("img/Arq_CasaDeCampo_2.jpg")');
+    $("#myModal11 .image-3").css('content', 'url("img/Arq_CasaDeCampo_3.jpg")');
+    $("#myModal11 .image-4").css('content', 'url("img/Arq_CasaDeCampo_4.jpg")');
 
     loadImage(".myModal10","img/Arq_CondominioMilleta-2015-p.jpg");
     $("#myModal10 .image-1").css('content', 'url("img/Arq_CondominioMilleta-2015-1.jpg")');
