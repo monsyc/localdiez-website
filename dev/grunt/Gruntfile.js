@@ -67,6 +67,14 @@ module.exports = function(grunt) {
           }]
         }
       },
+      sitemap: {
+        dist: {
+            pattern: ['../*.html'], 
+            siteRoot: '../',
+            homepage: 'http://www.localdiez.mx/',
+            changefreq: 'monthly'
+        }
+      },
     });
 
     // Load the plugin that provides the "purifycss" task.
@@ -77,6 +85,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
 
     grunt.loadNpmTasks('grunt-contrib-imagemin');
+    grunt.loadNpmTasks('grunt-sitemap');
 
     grunt.registerTask('default', ['purifycss','cssmin','uglify', 'processhtml', 'htmlmin', 'imagemin']);
 

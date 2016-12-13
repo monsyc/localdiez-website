@@ -10,6 +10,7 @@
     "grunt-contrib-nodeunit": "~0.4.1",
     "grunt-contrib-uglify": "^0.5.1",
     "grunt-processhtml": "^0.4.1",
-    "grunt-purifycss": "^0.1.1"
+    "grunt-purifycss": "^0.1.1",
+    "grunt-sitemap": "^1.2.1"
   }
 }
