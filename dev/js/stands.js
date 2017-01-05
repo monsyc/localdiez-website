@@ -89,7 +89,8 @@ function loadImagesForIE() {
     loadImage("#myModal23 .image-3","img/Stands_Firenze-Cihac-2016-3.jpg");
     loadImage("#myModal23 .image-4","img/Stands_Firenze-Cihac-2016-4.jpg");
     loadImage("#myModal23 .image-5","img/Stands_Firenze-Cihac-2016-5.jpg");
-    loadImage("#myModal23 .image-6","img/Stands_Firenze-Cihac-2016-6.jpg");
+    loadImage("#myModal23 .image-6","img/Stands_Firenze-Cihac-2016-7.jpg");
+    loadImage("#myModal23 .image-7","img/Stands_Firenze-Cihac-2016-8.jpg");
 
 
     loadImage("#myModal24 .image-1","img/Stands_Gante-Cihac-2016-1.jpg");  // 5
@@ -137,9 +138,9 @@ function loadImagesForIE() {
     loadImage("#myModal3 .image-6","img/Stands_Lamosa-Cihac-2015-6.jpg");
 
 
-    loadImage("#myModal5 .image-1","img/Stands_Firenze-Cihac-2015-1.jpg"); // 7
-    loadImage("#myModal5 .image-2","img/Stands_Firenze-Cihac-2015-2.jpg");
-    loadImage("#myModal5 .image-3","img/Stands_Firenze-Cihac-2015-3.jpg");
+    loadImage("#myModal5 .image-1","img/Stands_Firenze-Cihac-2015-2.jpg"); // 7
+    loadImage("#myModal5 .image-2","img/Stands_Firenze-Cihac-2015-3.jpg");
+    loadImage("#myModal5 .image-3","img/Stands_Firenze-Cihac-2015-1.jpg");
     loadImage("#myModal5 .image-4","img/Stands_Firenze-Cihac-2015-4.jpg");
     loadImage("#myModal5 .image-5","img/Stands_Firenze-Cihac-2015-5.jpg");
     loadImage("#myModal5 .image-6","img/Stands_Firenze-Cihac-2015-6.jpg");
@@ -327,7 +328,9 @@ function loadModalImages() {
     $("#myModal23 .image-3").css('content', 'url("img/Stands_Firenze-Cihac-2016-3.jpg")');
     $("#myModal23 .image-4").css('content', 'url("img/Stands_Firenze-Cihac-2016-4.jpg")');
     $("#myModal23 .image-5").css('content', 'url("img/Stands_Firenze-Cihac-2016-5.jpg")');
-    $("#myModal23 .image-6").css('content', 'url("img/Stands_Firenze-Cihac-2016-6.jpg")');
+    $("#myModal23 .image-6").css('content', 'url("img/Stands_Firenze-Cihac-2016-7.jpg")');
+    $("#myModal23 .image-7").css('content', 'url("img/Stands_Firenze-Cihac-2016-8.jpg")');
+
 
 
     loadImage(".myModal24","img/Stands_Gante-Cihac-2016-p.jpg");
@@ -368,7 +371,7 @@ function loadModalImages() {
     $("#myModal .image-7").css('content', 'url("img/Stands_Porcelanite-Cihac-2015-7.jpg")');
 
     loadImage(".myModal28","img/Stands_PorcelaniteCihacEstudio2015_p.jpg");
-    $("#myModal28 .image-1").css('content', 'url("img/Stands_PorcelaniteCihacEstudio2015_1.jpg")'); // 7
+    $("#myModal28 .image-1").css('content', 'url("img/Stands_PorcelaniteCihacEstudio2014_1.jpg")'); // 7
     $("#myModal28 .image-2").css('content', 'url("img/Stands_PorcelaniteCihacEstudio2015_2.jpg")');
     $("#myModal28 .image-3").css('content', 'url("img/Stands_PorcelaniteCihacEstudio2015_3.jpg")');
     $("#myModal28 .image-4").css('content', 'url("img/Stands_PorcelaniteCihacEstudio2015_4.jpg")');
@@ -383,9 +386,9 @@ function loadModalImages() {
 
 
     loadImage(".myModal5","img/Stands_Firenze-Cihac-2015-p.jpg");
-    $("#myModal5 .image-1").css('content', 'url("img/Stands_Firenze-Cihac-2015-1.jpg")'); // 7
-    $("#myModal5 .image-2").css('content', 'url("img/Stands_Firenze-Cihac-2015-2.jpg")');
-    $("#myModal5 .image-3").css('content', 'url("img/Stands_Firenze-Cihac-2015-3.jpg")');
+    $("#myModal5 .image-1").css('content', 'url("img/Stands_Firenze-Cihac-2015-2.jpg")'); // 7
+    $("#myModal5 .image-2").css('content', 'url("img/Stands_Firenze-Cihac-2015-3.jpg")');
+    $("#myModal5 .image-3").css('content', 'url("img/Stands_Firenze-Cihac-2015-1.jpg")');
     $("#myModal5 .image-4").css('content', 'url("img/Stands_Firenze-Cihac-2015-4.jpg")');
     $("#myModal5 .image-5").css('content', 'url("img/Stands_Firenze-Cihac-2015-5.jpg")');
     $("#myModal5 .image-6").css('content', 'url("img/Stands_Firenze-Cihac-2015-6.jpg")');

@@ -3,15 +3,15 @@
 	$name = $_POST['name'];
   $email = $_POST['email'];
   $text = $_POST['text'];
-  $to = "silva.castro.mony@gmail.com";
+  $to = "anelyv@local10.mx";
   $subject = 'Message from Local 10 Site ';
 
   $message = "From: $name\n E-Mail: $email\n Message:\n $text";
   
   $message = str_replace("\n.", "\n..", $message);
   
-  $headers = 'From: silva.castro.mony@gmail.com' . "\r\n" .
-    'Reply-To: silva.castro.mony@gmail.com' . "\r\n" .
+  $headers = 'From: anelyv@local10.mx' . "\r\n" .
+    'Reply-To: anelyv@local10.mx' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
   $success = mail($to, $subject, $message, $headers);
