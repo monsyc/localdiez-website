@@ -177,8 +177,8 @@ function loadImagesForIE() {
     loadImage("#myModal2 .image-2","img/Stands_Firenze_Arquitectos_2015_2.jpg");
     loadImage("#myModal2 .image-3","img/Stands_Firenze_Arquitectos_2015_3.jpg");
     loadImage("#myModal2 .image-4","img/Stands_Firenze_Arquitectos_2015_4.jpg");
-    loadImage("#myModal2 .image-5","img/Stands_Firenze_Arquitectos_2015_5.jpg");
-    loadImage("#myModal2 .image-6","img/Stands_Firenze_Arquitectos_2015_6.jpg");
+    loadImage("#myModal2 .image-5","img/Stands_Firenze_Arquitectos_2015_6.jpg");
+    loadImage("#myModal2 .image-6","img/Stands_Firenze_Arquitectos_2015_7.jpg");
 
 
     loadImage("#myModal8 .image-1","img/Stands_Porcelanite-Cihac-2014-1.jpg"); // 5
@@ -189,6 +189,9 @@ function loadImagesForIE() {
 
     loadImage("#myModal32 .image-1","img/Stands_PorcelaniteCihacEstudio2014_1.jpg"); // 5
     loadImage("#myModal32 .image-2","img/Stands_PorcelaniteCihacEstudio2014_2.jpg");
+    loadImage("#myModal32 .image-3","img/Stands_PorcelaniteCihacEstudio2014_3.jpg");
+    loadImage("#myModal32 .image-4","img/Stands_PorcelaniteCihacEstudio2014_4.jpg");
+    loadImage("#myModal32 .image-5","img/Stands_PorcelaniteCihacEstudio2014_5.jpg");
 
     loadImage("#myModal9 .image-1","img/Stands_Lamosa_Cihac_2014_1.jpg"); // 7
     loadImage("#myModal9 .image-2","img/Stands_Lamosa_Cihac_2014_2.jpg");
@@ -202,6 +205,9 @@ function loadImagesForIE() {
     loadImage("#myModal31 .image-2","img/Stands_LamosaCihacEstudio2014_2.jpg");
     loadImage("#myModal31 .image-3","img/Stands_LamosaCihacEstudio2014_3.jpg");
     loadImage("#myModal31 .image-4","img/Stands_LamosaCihacEstudio2014_4.jpg");
+    loadImage("#myModal31 .image-5","img/Stands_LamosaCihacEstudio2014_5.jpg");
+    loadImage("#myModal31 .image-6","img/Stands_LamosaCihacEstudio2014_6.jpg");
+    loadImage("#myModal31 .image-7","img/Stands_LamosaCihacEstudio2014_7.jpg");
 
     loadImage("#myModal10 .image-1","img/Stands_Firenze_Cihac_2014_1.jpg"); // 8
     loadImage("#myModal10 .image-2","img/Stands_Firenze_Cihac_2014_2.jpg");
@@ -429,8 +435,8 @@ function loadModalImages() {
     $("#myModal2 .image-2").css('content', 'url("img/Stands_Firenze_Arquitectos_2015_2.jpg")');
     $("#myModal2 .image-3").css('content', 'url("img/Stands_Firenze_Arquitectos_2015_3.jpg")');
     $("#myModal2 .image-4").css('content', 'url("img/Stands_Firenze_Arquitectos_2015_4.jpg")');
-    $("#myModal2 .image-5").css('content', 'url("img/Stands_Firenze_Arquitectos_2015_5.jpg")');
-    $("#myModal2 .image-6").css('content', 'url("img/Stands_Firenze_Arquitectos_2015_6.jpg")');
+    $("#myModal2 .image-5").css('content', 'url("img/Stands_Firenze_Arquitectos_2015_6.jpg")');
+    $("#myModal2 .image-6").css('content', 'url("img/Stands_Firenze_Arquitectos_2015_7.jpg")');
 
 
     loadImage(".myModal8","img/Stands_Porcelanite-Cihac-2014-p.jpg");
@@ -443,6 +449,9 @@ function loadModalImages() {
     loadImage(".myModal32","img/Stands_PorcelaniteCihacEstudio2014_p.jpg");
     $("#myModal32 .image-1").css('content', 'url("img/Stands_PorcelaniteCihacEstudio2014_1.jpg")'); // 5
     $("#myModal32 .image-2").css('content', 'url("img/Stands_PorcelaniteCihacEstudio2014_2.jpg")');
+    $("#myModal32 .image-3").css('content', 'url("img/Stands_PorcelaniteCihacEstudio2014_3.jpg")');
+    $("#myModal32 .image-4").css('content', 'url("img/Stands_PorcelaniteCihacEstudio2014_4.jpg")');
+    $("#myModal32 .image-5").css('content', 'url("img/Stands_PorcelaniteCihacEstudio2014_5.jpg")');
     
 
     loadImage(".myModal9","img/Stands_Lamosa_Cihac_2014_p.jpg");
@@ -459,6 +468,9 @@ function loadModalImages() {
     $("#myModal31 .image-2").css('content', 'url("img/Stands_LamosaCihacEstudio2014_2.jpg")');
     $("#myModal31 .image-3").css('content', 'url("img/Stands_LamosaCihacEstudio2014_3.jpg")');
     $("#myModal31 .image-4").css('content', 'url("img/Stands_LamosaCihacEstudio2014_4.jpg")');
+    $("#myModal31 .image-5").css('content', 'url("img/Stands_LamosaCihacEstudio2014_5.jpg")');
+    $("#myModal31 .image-6").css('content', 'url("img/Stands_LamosaCihacEstudio2014_6.jpg")');
+    $("#myModal31 .image-7").css('content', 'url("img/Stands_LamosaCihacEstudio2014_7.jpg")');
 
     loadImage(".myModal10","img/Stands_Firenze_Cihac_2014_p.jpg");
     $("#myModal10 .image-1").css('content', 'url("img/Stands_Firenze_Cihac_2014_1.jpg")'); // 8
