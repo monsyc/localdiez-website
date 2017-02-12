@@ -17,8 +17,9 @@ function msieversion() {
 
     var ua = window.navigator.userAgent;
     var msie = ua.indexOf("MSIE ");
+    var isFirefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
 
-    if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./))  // If Internet Explorer, return version number
+    if (isFirefox || msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./))  // If Internet Explorer, return version number
     {
         loadImagesForIE();
     }
